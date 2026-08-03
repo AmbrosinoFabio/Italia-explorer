@@ -1,0 +1,1218 @@
+<!DOCTYPE html>
+<html lang="it">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Italia Explorer</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+
+    <script defer src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+
+    <script defer src="data.js"></script>
+
+    <script defer src="common.js"></script>
+
+    <script defer src="script.js"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+
+</head>
+
+<body>
+
+    <!-- ================= NAVBAR ================= -->
+
+    <nav>
+
+        <div class="logo">
+
+            🇮🇹 Italia Explorer
+
+        </div>
+
+        <ul>
+
+            <li><a href="#home">Home</a></li>
+
+            <li><a href="#destinazioni">Destinazioni</a></li>
+
+            <li><a href="#mappa">Mappa</a></li>
+
+            <li><a href="contatti.html">Contatti</a></li>
+
+        </ul>
+
+        <button id="darkMode">
+
+            🌙
+
+        </button>
+
+    </nav>
+
+    <!-- ================= HERO ================= -->
+
+    <header id="home">
+
+        <div class="overlay">
+
+            <h1>
+
+                Esplora l'Italia
+
+            </h1>
+
+            <p>
+
+                Scopri città, monumenti e luoghi meravigliosi.
+
+            </p>
+
+            <button id="randomCity">
+
+                🎲 Consigliami una città
+
+            </button>
+
+        </div>
+
+    </header>
+
+    <!-- ================= SEARCH ================= -->
+
+    <section class="search">
+
+        <h2>
+
+            Cerca una città
+
+        </h2>
+
+        <input
+            type="text"
+            id="searchInput"
+            placeholder="Scrivi Roma, Milano, Venezia...">
+
+    </section>
+
+    <!-- ================= CARD ================= -->
+
+    <section id="destinazioni">
+
+        <h2>
+
+            Le città più amate
+
+        </h2>
+
+        <div class="cards">
+
+            <div class="card">
+
+                <a href="citta.html?nome=Roma" class="card-link">
+
+                    <img src="roma.jpeg" alt="Roma">
+
+                    <h3>Roma</h3>
+
+                    <p>
+
+                        Il Colosseo, la Fontana di Trevi e il Vaticano.
+
+                    </p>
+
+                    <span class="card-more">Scopri di più →</span>
+
+                </a>
+
+                <button class="favorite">
+
+                    🤍
+
+                </button>
+
+            </div>
+
+            <div class="card">
+
+                <a href="citta.html?nome=Milano" class="card-link">
+
+                    <img src="milano.jpeg" alt="Milano">
+
+                    <h3>Milano</h3>
+
+                    <p>
+
+                        Moda, design e il magnifico Duomo.
+
+                    </p>
+
+                    <span class="card-more">Scopri di più →</span>
+
+                </a>
+
+                <button class="favorite">
+
+                    🤍
+
+                </button>
+
+            </div>
+
+            <div class="card">
+
+                <a href="citta.html?nome=Venezia" class="card-link">
+
+                    <img src="venezia.jpeg" alt="Venezia">
+
+                    <h3>Venezia</h3>
+
+                    <p>
+
+                        Gondole, canali e Piazza San Marco.
+
+                    </p>
+
+                    <span class="card-more">Scopri di più →</span>
+
+                </a>
+
+                <button class="favorite">
+
+                    🤍
+
+                </button>
+
+            </div>
+
+            <div class="card">
+
+                <a href="citta.html?nome=Firenze" class="card-link">
+
+                    <img src="firenze.jpeg" alt="Firenze">
+
+                    <h3>Firenze</h3>
+
+                    <p>
+
+                        Il cuore del Rinascimento italiano.
+
+                    </p>
+
+                    <span class="card-more">Scopri di più →</span>
+
+                </a>
+
+                <button class="favorite">
+
+                    🤍
+
+                </button>
+
+            </div>
+
+            <div class="card">
+
+                <a href="citta.html?nome=Napoli" class="card-link">
+
+                    <img src="napoli.jpeg" alt="Napoli">
+
+                    <h3>Napoli</h3>
+
+                    <p>
+
+                        Il Vesuvio, il centro storico e la vera pizza napoletana.
+
+                    </p>
+
+                    <span class="card-more">Scopri di più →</span>
+
+                </a>
+
+                <button class="favorite">
+
+                    🤍
+
+                </button>
+
+            </div>
+
+            <div class="card">
+
+                <a href="citta.html?nome=Torino" class="card-link">
+
+                    <img src="torino.jpeg" alt="Torino">
+
+                    <h3>Torino</h3>
+
+                    <p>
+
+                        Eleganti palazzi sabaudi e la Mole Antonelliana.
+
+                    </p>
+
+                    <span class="card-more">Scopri di più →</span>
+
+                </a>
+
+                <button class="favorite">
+
+                    🤍
+
+                </button>
+
+            </div>
+
+            <div class="card">
+
+                <a href="citta.html?nome=Bologna" class="card-link">
+
+                    <img src="bologna.jpeg" alt="Bologna">
+
+                    <h3>Bologna</h3>
+
+                    <p>
+
+                        Portici storici, torri medievali e buona cucina.
+
+                    </p>
+
+                    <span class="card-more">Scopri di più →</span>
+
+                </a>
+
+                <button class="favorite">
+
+                    🤍
+
+                </button>
+
+            </div>
+
+            <div class="card">
+
+                <a href="citta.html?nome=Verona" class="card-link">
+
+                    <img src="verona.jpeg" alt="Verona">
+
+                    <h3>Verona</h3>
+
+                    <p>
+
+                        La casa di Giulietta e l'Arena romana.
+
+                    </p>
+
+                    <span class="card-more">Scopri di più →</span>
+
+                </a>
+
+                <button class="favorite">
+
+                    🤍
+
+                </button>
+
+            </div>
+
+            <div class="card">
+
+                <a href="citta.html?nome=Palermo" class="card-link">
+
+                    <img src="palermo.jpeg" alt="Palermo">
+
+                    <h3>Palermo</h3>
+
+                    <p>
+
+                        Mercati vivaci, mosaici arabo-normanni e mare.
+
+                    </p>
+
+                    <span class="card-more">Scopri di più →</span>
+
+                </a>
+
+                <button class="favorite">
+
+                    🤍
+
+                </button>
+
+            </div>
+
+            <div class="card">
+
+                <a href="citta.html?nome=Catania" class="card-link">
+
+                    <img src="catania.jpeg" alt="Catania">
+
+                    <h3>Catania</h3>
+
+                    <p>
+
+                        Ai piedi dell'Etna, tra barocco e mare.
+
+                    </p>
+
+                    <span class="card-more">Scopri di più →</span>
+
+                </a>
+
+                <button class="favorite">
+
+                    🤍
+
+                </button>
+
+            </div>
+
+            <div class="card">
+
+                <a href="citta.html?nome=Matera" class="card-link">
+
+                    <img src="matera.jpeg" alt="Matera">
+
+                    <h3>Matera</h3>
+
+                    <p>
+
+                        I Sassi, patrimonio UNESCO scolpito nella roccia.
+
+                    </p>
+
+                    <span class="card-more">Scopri di più →</span>
+
+                </a>
+
+                <button class="favorite">
+
+                    🤍
+
+                </button>
+
+            </div>
+
+            <div class="card">
+
+                <a href="citta.html?nome=Como" class="card-link">
+
+                    <img src="como.jpeg" alt="Como">
+
+                    <h3>Como</h3>
+
+                    <p>
+
+                        Il lago più elegante d'Italia, tra ville e giardini.
+
+                    </p>
+
+                    <span class="card-more">Scopri di più →</span>
+
+                </a>
+
+                <button class="favorite">
+
+                    🤍
+
+                </button>
+
+            </div>
+
+            <div class="card">
+
+                <a href="citta.html?nome=Positano" class="card-link">
+
+                    <img src="positano.jpeg" alt="Positano">
+
+                    <h3>Positano</h3>
+
+                    <p>
+
+                        Case colorate a picco sulla Costiera Amalfitana.
+
+                    </p>
+
+                    <span class="card-more">Scopri di più →</span>
+
+                </a>
+
+                <button class="favorite">
+
+                    🤍
+
+                </button>
+
+            </div>
+
+            <div class="card">
+
+                <a href="citta.html?nome=Amalfi" class="card-link">
+
+                    <img src="amalfi.jpeg" alt="Amalfi">
+
+                    <h3>Amalfi</h3>
+
+                    <p>
+
+                        Duomo, limoni e panorami mozzafiato sul mare.
+
+                    </p>
+
+                    <span class="card-more">Scopri di più →</span>
+
+                </a>
+
+                <button class="favorite">
+
+                    🤍
+
+                </button>
+
+            </div>
+
+            <div class="card">
+
+                <a href="citta.html?nome=Pisa" class="card-link">
+
+                    <img src="pisa.jpeg" alt="Pisa">
+
+                    <h3>Pisa</h3>
+
+                    <p>
+
+                        La Torre Pendente e Piazza dei Miracoli.
+
+                    </p>
+
+                    <span class="card-more">Scopri di più →</span>
+
+                </a>
+
+                <button class="favorite">
+
+                    🤍
+
+                </button>
+
+            </div>
+
+            <div class="card">
+
+                <a href="citta.html?nome=Siena" class="card-link">
+
+                    <img src="siena.jpeg" alt="Siena">
+
+                    <h3>Siena</h3>
+
+                    <p>
+
+                        Il Palio, Piazza del Campo e il gotico senese.
+
+                    </p>
+
+                    <span class="card-more">Scopri di più →</span>
+
+                </a>
+
+                <button class="favorite">
+
+                    🤍
+
+                </button>
+
+            </div>
+
+            <div class="card">
+
+                <a href="citta.html?nome=Cinque%20Terre" class="card-link">
+
+                    <img src="cinque-terre.jpeg" alt="Cinque Terre">
+
+                    <h3>Cinque Terre</h3>
+
+                    <p>
+
+                        Cinque borghi colorati a picco sul mare ligure.
+
+                    </p>
+
+                    <span class="card-more">Scopri di più →</span>
+
+                </a>
+
+                <button class="favorite">
+
+                    🤍
+
+                </button>
+
+            </div>
+
+            <div class="card">
+
+                <a href="citta.html?nome=Dolomiti" class="card-link">
+
+                    <img src="dolomiti.jpeg" alt="Dolomiti">
+
+                    <h3>Dolomiti</h3>
+
+                    <p>
+
+                        Vette mozzafiato, Patrimonio Naturale UNESCO.
+
+                    </p>
+
+                    <span class="card-more">Scopri di più →</span>
+
+                </a>
+
+                <button class="favorite">
+
+                    🤍
+
+                </button>
+
+            </div>
+
+            <div class="card">
+
+                <a href="citta.html?nome=Genova" class="card-link">
+
+                    <img src="https://loremflickr.com/800/600/genoa,italy" alt="Genova">
+
+                    <h3>Genova</h3>
+
+                    <p>
+
+                        Antica Repubblica Marinara e patria di Colombo.
+
+                    </p>
+
+                    <span class="card-more">Scopri di più →</span>
+
+                </a>
+
+                <button class="favorite">
+
+                    🤍
+
+                </button>
+
+            </div>
+
+            <div class="card">
+
+                <a href="citta.html?nome=Bari" class="card-link">
+
+                    <img src="https://loremflickr.com/800/600/bari,italy" alt="Bari">
+
+                    <h3>Bari</h3>
+
+                    <p>
+
+                        Il lungomare adriatico e la Basilica di San Nicola.
+
+                    </p>
+
+                    <span class="card-more">Scopri di più →</span>
+
+                </a>
+
+                <button class="favorite">
+
+                    🤍
+
+                </button>
+
+            </div>
+
+            <div class="card">
+
+                <a href="citta.html?nome=Lecce" class="card-link">
+
+                    <img src="https://loremflickr.com/800/600/lecce,italy" alt="Lecce">
+
+                    <h3>Lecce</h3>
+
+                    <p>
+
+                        La "Firenze del Sud", capitale del barocco.
+
+                    </p>
+
+                    <span class="card-more">Scopri di più →</span>
+
+                </a>
+
+                <button class="favorite">
+
+                    🤍
+
+                </button>
+
+            </div>
+
+            <div class="card">
+
+                <a href="citta.html?nome=Cagliari" class="card-link">
+
+                    <img src="https://loremflickr.com/800/600/cagliari,italy" alt="Cagliari">
+
+                    <h3>Cagliari</h3>
+
+                    <p>
+
+                        Il Golfo degli Angeli e il quartiere del Castello.
+
+                    </p>
+
+                    <span class="card-more">Scopri di più →</span>
+
+                </a>
+
+                <button class="favorite">
+
+                    🤍
+
+                </button>
+
+            </div>
+
+            <div class="card">
+
+                <a href="citta.html?nome=Perugia" class="card-link">
+
+                    <img src="https://loremflickr.com/800/600/perugia,italy" alt="Perugia">
+
+                    <h3>Perugia</h3>
+
+                    <p>
+
+                        Capoluogo umbro tra storia etrusca e cioccolato.
+
+                    </p>
+
+                    <span class="card-more">Scopri di più →</span>
+
+                </a>
+
+                <button class="favorite">
+
+                    🤍
+
+                </button>
+
+            </div>
+
+            <div class="card">
+
+                <a href="citta.html?nome=Trieste" class="card-link">
+
+                    <img src="https://loremflickr.com/800/600/trieste,italy" alt="Trieste">
+
+                    <h3>Trieste</h3>
+
+                    <p>
+
+                        Atmosfera mitteleuropea affacciata sull'Adriatico.
+
+                    </p>
+
+                    <span class="card-more">Scopri di più →</span>
+
+                </a>
+
+                <button class="favorite">
+
+                    🤍
+
+                </button>
+
+            </div>
+
+            <div class="card">
+
+                <a href="citta.html?nome=Bergamo" class="card-link">
+
+                    <img src="https://loremflickr.com/800/600/bergamo,italy" alt="Bergamo">
+
+                    <h3>Bergamo</h3>
+
+                    <p>
+
+                        Città Alta medievale ai piedi delle Prealpi.
+
+                    </p>
+
+                    <span class="card-more">Scopri di più →</span>
+
+                </a>
+
+                <button class="favorite">
+
+                    🤍
+
+                </button>
+
+            </div>
+
+            <div class="card">
+
+                <a href="citta.html?nome=Parma" class="card-link">
+
+                    <img src="https://loremflickr.com/800/600/parma,italy" alt="Parma">
+
+                    <h3>Parma</h3>
+
+                    <p>
+
+                        Città Creativa UNESCO per la gastronomia.
+
+                    </p>
+
+                    <span class="card-more">Scopri di più →</span>
+
+                </a>
+
+                <button class="favorite">
+
+                    🤍
+
+                </button>
+
+            </div>
+
+            <div class="card">
+
+                <a href="citta.html?nome=Trento" class="card-link">
+
+                    <img src="https://loremflickr.com/800/600/trento,italy" alt="Trento">
+
+                    <h3>Trento</h3>
+
+                    <p>
+
+                        Tra le Dolomiti, storica sede del Concilio.
+
+                    </p>
+
+                    <span class="card-more">Scopri di più →</span>
+
+                </a>
+
+                <button class="favorite">
+
+                    🤍
+
+                </button>
+
+            </div>
+
+            <div class="card">
+
+                <a href="citta.html?nome=Assisi" class="card-link">
+
+                    <img src="https://loremflickr.com/800/600/assisi,italy" alt="Assisi">
+
+                    <h3>Assisi</h3>
+
+                    <p>
+
+                        Città natale di San Francesco, patrono d'Italia.
+
+                    </p>
+
+                    <span class="card-more">Scopri di più →</span>
+
+                </a>
+
+                <button class="favorite">
+
+                    🤍
+
+                </button>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- ================= MAPPA ================= -->
+
+    <section id="mappa">
+
+        <h2>
+
+            Mappa Interattiva
+
+        </h2>
+
+        <p>
+
+            Seleziona una città per esplorarla sulla mappa.
+
+        </p>
+
+        <div class="map-wrapper">
+
+            <div id="leafletMap"></div>
+
+            <div class="city-list">
+
+                <button class="city-btn" data-city="Amalfi">Amalfi</button>
+
+                <button class="city-btn" data-city="Assisi">Assisi</button>
+
+                <button class="city-btn" data-city="Bari">Bari</button>
+
+                <button class="city-btn" data-city="Bergamo">Bergamo</button>
+
+                <button class="city-btn" data-city="Bologna">Bologna</button>
+
+                <button class="city-btn" data-city="Cagliari">Cagliari</button>
+
+                <button class="city-btn" data-city="Catania">Catania</button>
+
+                <button class="city-btn" data-city="Cinque Terre">Cinque Terre</button>
+
+                <button class="city-btn" data-city="Como">Como</button>
+
+                <button class="city-btn" data-city="Dolomiti">Dolomiti</button>
+
+                <button class="city-btn" data-city="Firenze">Firenze</button>
+
+                <button class="city-btn" data-city="Genova">Genova</button>
+
+                <button class="city-btn" data-city="Lecce">Lecce</button>
+
+                <button class="city-btn" data-city="Matera">Matera</button>
+
+                <button class="city-btn" data-city="Milano">Milano</button>
+
+                <button class="city-btn" data-city="Napoli">Napoli</button>
+
+                <button class="city-btn" data-city="Palermo">Palermo</button>
+
+                <button class="city-btn" data-city="Parma">Parma</button>
+
+                <button class="city-btn" data-city="Perugia">Perugia</button>
+
+                <button class="city-btn" data-city="Pisa">Pisa</button>
+
+                <button class="city-btn" data-city="Positano">Positano</button>
+
+                <button class="city-btn" data-city="Roma">Roma</button>
+
+                <button class="city-btn" data-city="Siena">Siena</button>
+
+                <button class="city-btn" data-city="Torino">Torino</button>
+
+                <button class="city-btn" data-city="Trento">Trento</button>
+
+                <button class="city-btn" data-city="Trieste">Trieste</button>
+
+                <button class="city-btn" data-city="Venezia">Venezia</button>
+
+                <button class="city-btn" data-city="Verona">Verona</button>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- ================= INFO ================= -->
+
+    <section class="info">
+
+        <h2>
+
+            Informazioni
+
+        </h2>
+
+        <div id="infoBox">
+
+            Seleziona una città per visualizzare le informazioni.
+
+        </div>
+
+    </section>
+
+    <!-- ================= CITTA' VISITATE ================= -->
+
+    <section class="counter" id="visitate">
+
+        <h2>
+
+            Le tue città visitate
+
+        </h2>
+
+        <h1 id="visitCounter">
+
+            0
+
+        </h1>
+
+        <p>
+
+            città visitate su 28
+
+        </p>
+
+        <p class="visit-instructions">
+
+            Seleziona le città che hai già visitato:
+
+        </p>
+
+        <div class="visit-grid">
+
+            <button class="visit-btn" data-city="Amalfi">Amalfi</button>
+
+            <button class="visit-btn" data-city="Assisi">Assisi</button>
+
+            <button class="visit-btn" data-city="Bari">Bari</button>
+
+            <button class="visit-btn" data-city="Bergamo">Bergamo</button>
+
+            <button class="visit-btn" data-city="Bologna">Bologna</button>
+
+            <button class="visit-btn" data-city="Cagliari">Cagliari</button>
+
+            <button class="visit-btn" data-city="Catania">Catania</button>
+
+            <button class="visit-btn" data-city="Cinque Terre">Cinque Terre</button>
+
+            <button class="visit-btn" data-city="Como">Como</button>
+
+            <button class="visit-btn" data-city="Dolomiti">Dolomiti</button>
+
+            <button class="visit-btn" data-city="Firenze">Firenze</button>
+
+            <button class="visit-btn" data-city="Genova">Genova</button>
+
+            <button class="visit-btn" data-city="Lecce">Lecce</button>
+
+            <button class="visit-btn" data-city="Matera">Matera</button>
+
+            <button class="visit-btn" data-city="Milano">Milano</button>
+
+            <button class="visit-btn" data-city="Napoli">Napoli</button>
+
+            <button class="visit-btn" data-city="Palermo">Palermo</button>
+
+            <button class="visit-btn" data-city="Parma">Parma</button>
+
+            <button class="visit-btn" data-city="Perugia">Perugia</button>
+
+            <button class="visit-btn" data-city="Pisa">Pisa</button>
+
+            <button class="visit-btn" data-city="Positano">Positano</button>
+
+            <button class="visit-btn" data-city="Roma">Roma</button>
+
+            <button class="visit-btn" data-city="Siena">Siena</button>
+
+            <button class="visit-btn" data-city="Torino">Torino</button>
+
+            <button class="visit-btn" data-city="Trento">Trento</button>
+
+            <button class="visit-btn" data-city="Trieste">Trieste</button>
+
+            <button class="visit-btn" data-city="Venezia">Venezia</button>
+
+            <button class="visit-btn" data-city="Verona">Verona</button>
+
+        </div>
+
+        <div id="suggestionsBox" class="suggestions">
+
+            Seleziona le città che hai già visitato per ricevere consigli personalizzati.
+
+        </div>
+
+    </section>
+
+    <!-- ================= GALLERY ================= -->
+
+    <section class="gallery">
+
+        <h2>
+
+            Galleria
+
+        </h2>
+
+        <div class="slider-wrapper">
+
+            <div class="slider-frame">
+
+                <img
+                    id="slider"
+                    src="roma.jpeg"
+                    alt="Galleria fotografica delle città italiane">
+
+                <div class="slider-caption" id="sliderCaption">
+
+                    Roma
+
+                </div>
+
+                <button type="button" class="slider-arrow prev" id="prevSlide" aria-label="Immagine precedente">
+
+                    ‹
+
+                </button>
+
+                <button type="button" class="slider-arrow next" id="nextSlide" aria-label="Immagine successiva">
+
+                    ›
+
+                </button>
+
+            </div>
+
+        </div>
+
+        <div class="slider-dots" id="sliderDots"></div>
+
+    </section>
+
+    <!-- ================= FOOTER ================= -->
+
+    <footer id="contatti-footer">
+
+        <div class="footer-content">
+
+            <div class="footer-brand">
+
+                <h3>🇮🇹 Italia Explorer</h3>
+
+                <p>
+
+                    Un piccolo progetto per esplorare le meraviglie d'Italia, città dopo città.
+
+                </p>
+
+            </div>
+
+            <div class="footer-links">
+
+                <h4>Naviga</h4>
+
+                <a href="#home">Home</a>
+
+                <a href="#destinazioni">Destinazioni</a>
+
+                <a href="#mappa">Mappa</a>
+
+                <a href="#visitate">Città visitate</a>
+
+                <a href="contatti.html">Contatti</a>
+
+            </div>
+
+            <div class="footer-legal">
+
+                <h4>Legale</h4>
+
+                <button id="openPrivacy" class="footer-link-btn">
+
+                    Privacy &amp; Cookie
+
+                </button>
+
+            </div>
+
+        </div>
+
+        <div class="footer-bottom">
+
+            <p>
+
+                Progetto HTML • CSS • JavaScript
+
+            </p>
+
+            <p>
+
+                &copy; <span id="currentYear"></span> Italia Explorer
+
+            </p>
+
+        </div>
+
+    </footer>
+
+    <!-- ================= PRIVACY MODAL ================= -->
+
+    <div class="modal-overlay" id="privacyModal">
+
+        <div class="modal-box">
+
+            <button class="modal-close" id="closePrivacy" aria-label="Chiudi">✕</button>
+
+            <h2>Privacy &amp; Cookie Policy</h2>
+
+            <p class="modal-updated">
+
+                Ultimo aggiornamento: 28 luglio 2026
+
+            </p>
+
+            <h3>Dati salvati sul tuo dispositivo</h3>
+
+            <p>
+
+                Questo sito è un progetto didattico personale e non raccoglie né invia dati personali a nessun server. Alcune preferenze (modalità scura, città preferite, città visitate) vengono salvate esclusivamente nel <strong>localStorage</strong> del tuo browser: restano sul tuo dispositivo e puoi cancellarle in qualsiasi momento svuotando i dati di navigazione.
+
+            </p>
+
+            <h3>Servizi esterni utilizzati</h3>
+
+            <p>
+
+                Per funzionare, il sito carica risorse da alcuni servizi di terze parti, che secondo le rispettive normative potrebbero ricevere il tuo indirizzo IP durante il caricamento:
+
+            </p>
+
+            <ul>
+
+                <li><strong>Google Fonts</strong> — per il font "Poppins"</li>
+
+                <li><strong>OpenStreetMap / CARTO</strong> — per la mappa interattiva</li>
+
+                <li><strong>LoremFlickr</strong> — per alcune foto delle destinazioni</li>
+
+            </ul>
+
+            <h3>Cookie</h3>
+
+            <p>
+
+                Questo sito non utilizza cookie di profilazione o di tracciamento pubblicitario.
+
+            </p>
+
+        </div>
+
+    </div>
+
+</body>
+
+</html>
