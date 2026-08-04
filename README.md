@@ -2,7 +2,7 @@
 
 Sito di esplorazione delle città italiane, realizzato in HTML, CSS e JavaScript puro, con mappa interattiva e preferenze salvate in locale.
 
-**Demo live:** https://ambrosinofabio.github.io/italia-explorer/PJ1.html
+**Demo live:** https://ambrosinofabio.github.io/Italia-explorer/PJ1.html
 
 ## Funzionalità
 
@@ -33,8 +33,8 @@ style.css         # Fogli di stile
 Il progetto non richiede build né installazione di pacchetti: basta un browser con connessione a Internet (per mappa, font e alcune foto — vedi Dipendenze).
 
 ```bash
-git clone https://github.com/AmbrosinoFabio/italia-explorer.git
-cd italia-explorer
+git clone https://github.com/AmbrosinoFabio/Italia-explorer.git
+cd Italia-explorer
 python3 -m http.server 8000
 ```
 Poi apri `http://localhost:8000/PJ1.html`.
