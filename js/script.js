@@ -427,18 +427,18 @@ SLIDER IMMAGINI (con frecce, pallini, didascalie e swipe)
 
 const sliderImages=[
 
-    {src:"roma.jpeg", name:"Roma"},
-    {src:"milano.jpeg", name:"Milano"},
-    {src:"venezia.jpeg", name:"Venezia"},
-    {src:"firenze.jpeg", name:"Firenze"},
-    {src:"napoli.jpeg", name:"Napoli"},
-    {src:"torino.jpeg", name:"Torino"},
-    {src:"palermo.jpeg", name:"Palermo"},
-    {src:"matera.jpeg", name:"Matera"},
-    {src:"dolomiti.jpeg", name:"Dolomiti"},
-    {src:"cinque-terre.jpeg", name:"Cinque Terre"},
-    {src:"pisa.jpeg", name:"Pisa"},
-    {src:"siena.jpeg", name:"Siena"}
+    {src:"img/roma.jpeg", name:"Roma"},
+    {src:"img/milano.jpeg", name:"Milano"},
+    {src:"img/venezia.jpeg", name:"Venezia"},
+    {src:"img/firenze.jpeg", name:"Firenze"},
+    {src:"img/napoli.jpeg", name:"Napoli"},
+    {src:"img/torino.jpeg", name:"Torino"},
+    {src:"img/palermo.jpeg", name:"Palermo"},
+    {src:"img/matera.jpeg", name:"Matera"},
+    {src:"img/dolomiti.jpeg", name:"Dolomiti"},
+    {src:"img/cinque-terre.jpeg", name:"Cinque Terre"},
+    {src:"img/pisa.jpeg", name:"Pisa"},
+    {src:"img/siena.jpeg", name:"Siena"}
 
 ];
 

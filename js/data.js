@@ -11,7 +11,7 @@ const citiesData={
 
 "Roma":{
 
-    lat:41.9028, lng:12.4964, tags:["arte"], img:"roma.jpeg",
+    lat:41.9028, lng:12.4964, tags:["arte"], img:"img/roma.jpeg",
 
     history:"Fondata secondo la leggenda nel 753 a.C., Roma fu il centro dell'Impero Romano che dominò gran parte del mondo antico. Divenuta poi capitale della cristianità, conserva ancora oggi monumenti simbolo come il Colosseo e il Foro Romano.",
 
@@ -25,7 +25,7 @@ const citiesData={
 
 "Milano":{
 
-    lat:45.4642, lng:9.1900, tags:["arte"], img:"milano.jpeg",
+    lat:45.4642, lng:9.1900, tags:["arte"], img:"img/milano.jpeg",
 
     history:"Fondata dai Celti e poi conquistata dai Romani, Milano fu capitale del Ducato di Milano e oggi è la capitale economica e della moda d'Italia. Il suo Duomo, iniziato nel 1386, è uno dei simboli della città.",
 
@@ -39,7 +39,7 @@ const citiesData={
 
 "Venezia":{
 
-    lat:45.4408, lng:12.3155, tags:["mare","arte"], img:"venezia.jpeg",
+    lat:45.4408, lng:12.3155, tags:["mare","arte"], img:"img/venezia.jpeg",
 
     history:"Fondata nel V secolo dai profughi in fuga dalle invasioni barbariche, Venezia divenne una potente Repubblica marinara che dominò il commercio nel Mediterraneo per secoli.",
 
@@ -53,7 +53,7 @@ const citiesData={
 
 "Firenze":{
 
-    lat:43.7696, lng:11.2558, tags:["arte"], img:"firenze.jpeg",
+    lat:43.7696, lng:11.2558, tags:["arte"], img:"img/firenze.jpeg",
 
     history:"Culla del Rinascimento nel XV secolo grazie alla famiglia Medici, Firenze ha dato i natali ad artisti come Michelangelo, Leonardo da Vinci e Dante Alighieri.",
 
@@ -67,7 +67,7 @@ const citiesData={
 
 "Napoli":{
 
-    lat:40.8518, lng:14.2681, tags:["mare","arte"], img:"napoli.jpeg",
+    lat:40.8518, lng:14.2681, tags:["mare","arte"], img:"img/napoli.jpeg",
 
     history:"Fondata dai Greci con il nome di Neapolis (\"città nuova\"), Napoli fu capitale del Regno delle Due Sicilie e vanta uno dei centri storici più grandi d'Europa.",
 
@@ -81,7 +81,7 @@ const citiesData={
 
 "Torino":{
 
-    lat:45.0703, lng:7.6869, tags:["montagna","arte"], img:"torino.jpeg",
+    lat:45.0703, lng:7.6869, tags:["montagna","arte"], img:"img/torino.jpeg",
 
     history:"Capitale del Regno di Sardegna e prima capitale d'Italia (1861-1865), Torino fu la culla dell'industria automobilistica italiana con la nascita della FIAT.",
 
@@ -95,7 +95,7 @@ const citiesData={
 
 "Bologna":{
 
-    lat:44.4949, lng:11.3426, tags:["arte"], img:"bologna.jpeg",
+    lat:44.4949, lng:11.3426, tags:["arte"], img:"img/bologna.jpeg",
 
     history:"Sede della più antica università del mondo occidentale ancora attiva, fondata nel 1088, Bologna è soprannominata \"la Dotta\" per la sua lunga tradizione universitaria.",
 
@@ -109,7 +109,7 @@ const citiesData={
 
 "Verona":{
 
-    lat:45.4384, lng:10.9916, tags:["arte"], img:"verona.jpeg",
+    lat:45.4384, lng:10.9916, tags:["arte"], img:"img/verona.jpeg",
 
     history:"Città romana con un'Arena ancora oggi utilizzata per spettacoli, Verona è resa celebre in tutto il mondo da Shakespeare come ambientazione di Romeo e Giulietta.",
 
@@ -123,7 +123,7 @@ const citiesData={
 
 "Palermo":{
 
-    lat:38.1157, lng:13.3613, tags:["mare","arte"], img:"palermo.jpeg",
+    lat:38.1157, lng:13.3613, tags:["mare","arte"], img:"img/palermo.jpeg",
 
     history:"Fondata dai Fenici, Palermo fu capitale del Regno di Sicilia e conserva una fusione unica di stili arabo-normanni, visibile ad esempio nella Cappella Palatina.",
 
@@ -137,7 +137,7 @@ const citiesData={
 
 "Catania":{
 
-    lat:37.5079, lng:15.0830, tags:["mare","montagna"], img:"catania.jpeg",
+    lat:37.5079, lng:15.0830, tags:["mare","montagna"], img:"img/catania.jpeg",
 
     history:"Fondata dai Greci ai piedi dell'Etna, Catania è stata più volte distrutta e ricostruita a causa di eruzioni e terremoti, l'ultima nel 1693, che le ha dato l'attuale volto barocco.",
 
@@ -151,7 +151,7 @@ const citiesData={
 
 "Matera":{
 
-    lat:40.6664, lng:16.6043, tags:["arte"], img:"matera.jpeg",
+    lat:40.6664, lng:16.6043, tags:["arte"], img:"img/matera.jpeg",
 
     history:"Abitata ininterrottamente da oltre 9.000 anni, Matera è famosa per i Sassi, antiche case scavate nella roccia, dichiarati Patrimonio dell'Umanità UNESCO nel 1993.",
 
@@ -165,7 +165,7 @@ const citiesData={
 
 "Como":{
 
-    lat:45.8081, lng:9.0852, tags:["lago"], img:"como.jpeg",
+    lat:45.8081, lng:9.0852, tags:["lago"], img:"img/como.jpeg",
 
     history:"Fondata dai Romani sulle sponde dell'omonimo lago, Como è nota fin dall'Ottocento come meta di villeggiatura dell'aristocrazia europea.",
 
@@ -179,7 +179,7 @@ const citiesData={
 
 "Positano":{
 
-    lat:40.6280, lng:14.4849, tags:["mare"], img:"positano.jpeg",
+    lat:40.6280, lng:14.4849, tags:["mare"], img:"img/positano.jpeg",
 
     history:"Antico borgo di pescatori sulla Costiera Amalfitana, Positano divenne famosa nel dopoguerra come meta d'élite grazie a scrittori e artisti che ne celebrarono la bellezza.",
 
@@ -193,7 +193,7 @@ const citiesData={
 
 "Amalfi":{
 
-    lat:40.6340, lng:14.6027, tags:["mare"], img:"amalfi.jpeg",
+    lat:40.6340, lng:14.6027, tags:["mare"], img:"img/amalfi.jpeg",
 
     history:"Nel Medioevo fu una potente Repubblica Marinara con proprie leggi commerciali (le Tavole Amalfitane), tra le prime al mondo in materia di diritto marittimo.",
 
@@ -207,7 +207,7 @@ const citiesData={
 
 "Pisa":{
 
-    lat:43.7228, lng:10.4017, tags:["arte"], img:"pisa.jpeg",
+    lat:43.7228, lng:10.4017, tags:["arte"], img:"img/pisa.jpeg",
 
     history:"Antica Repubblica Marinara, Pisa raggiunse il suo massimo splendore tra l'XI e il XIII secolo. È famosa in tutto il mondo per la Torre Pendente, parte del complesso di Piazza dei Miracoli.",
 
@@ -221,7 +221,7 @@ const citiesData={
 
 "Siena":{
 
-    lat:43.3188, lng:11.3308, tags:["arte"], img:"siena.jpeg",
+    lat:43.3188, lng:11.3308, tags:["arte"], img:"img/siena.jpeg",
 
     history:"Rivale storica di Firenze nel Medioevo, Siena conserva un centro storico gotico perfettamente conservato, dichiarato Patrimonio UNESCO, ed è famosa per il Palio, la corsa di cavalli in Piazza del Campo.",
 
@@ -235,7 +235,7 @@ const citiesData={
 
 "Cinque Terre":{
 
-    lat:44.1461, lng:9.6551, tags:["mare"], img:"cinque-terre.jpeg",
+    lat:44.1461, lng:9.6551, tags:["mare"], img:"img/cinque-terre.jpeg",
 
     history:"Cinque borghi medievali arroccati sulla costa ligure - Monterosso, Vernazza, Corniglia, Manarola e Riomaggiore - collegati da sentieri panoramici, dichiarati Patrimonio dell'Umanità UNESCO nel 1997.",
 
@@ -249,7 +249,7 @@ const citiesData={
 
 "Dolomiti":{
 
-    lat:46.5405, lng:12.1357, tags:["montagna"], img:"dolomiti.jpeg",
+    lat:46.5405, lng:12.1357, tags:["montagna"], img:"img/dolomiti.jpeg",
 
     history:"Le Dolomiti sono una catena montuosa delle Alpi orientali, dichiarata Patrimonio Naturale dell'Umanità UNESCO nel 2009 per le sue guglie e pareti rocciose uniche al mondo.",
 

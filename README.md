@@ -19,13 +19,16 @@ Sito di esplorazione delle città italiane, realizzato in HTML, CSS e JavaScript
 PJ1.html          # Home: destinazioni, mappa, città visitate
 citta.html        # Pagina di dettaglio di una singola città
 contatti.html     # Pagina contatti + privacy/cookie policy
-data.js           # Dati delle città condivisi tra le pagine
-common.js         # Logica condivisa (dark mode, footer, ecc.)
-script.js         # Logica della home (card, mappa, preferiti, visitate)
-citta.js          # Logica della pagina di dettaglio città
-contatti.js       # Logica della pagina contatti
-style.css         # Fogli di stile
-*.jpeg            # Foto delle destinazioni principali
+css/
+  style.css       # Fogli di stile
+js/
+  data.js         # Dati delle città condivisi tra le pagine
+  common.js       # Logica condivisa (dark mode, footer, ecc.)
+  script.js       # Logica della home (card, mappa, preferiti, visitate)
+  citta.js        # Logica della pagina di dettaglio città
+  contatti.js     # Logica della pagina contatti
+img/
+  *.jpeg          # Foto delle destinazioni principali
 ```
 
 ## Come avviarlo in locale
