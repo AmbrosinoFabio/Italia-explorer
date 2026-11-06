@@ -1,65 +1,65 @@
 # 🇮🇹 Italia Explorer
 
-Sito di esplorazione delle città italiane, realizzato in HTML, CSS e JavaScript puro, con mappa interattiva e preferenze salvate in locale.
+A website for exploring Italian cities, built with plain HTML, CSS and JavaScript, with an interactive map and locally saved preferences.
 
-**Demo live:** https://ambrosinofabio.github.io/Italia-explorer/PJ1.html
+**Live demo:** https://ambrosinofabio.github.io/Italia-explorer/PJ1.html
 
-## Funzionalità
+## Features
 
-- **Destinazioni** — card delle città italiane con foto, tag e descrizione
-- **Mappa interattiva** — mappa (Leaflet + OpenStreetMap/CARTO) con marker per ogni città, pannello informazioni al click
-- **Pagina di dettaglio** per ogni città (`citta.html`), con storia e gastronomia
-- **Preferiti e città visitate** — salvati in `localStorage`, persistono tra le sessioni
-- **Modalità scura**
-- **Pagina contatti** con modulo e informativa privacy/cookie
+- **Destinations** — cards for Italian cities with a photo, tags and a description
+- **Interactive map** — a map (Leaflet + OpenStreetMap/CARTO) with a marker for each city and an info panel on click
+- **Detail page** for each city (`citta.html`), covering history and food
+- **Favorites and visited cities** — saved in `localStorage`, they persist across sessions
+- **Dark mode**
+- **Contact page** with a form and a privacy/cookie notice
 
-## Struttura del progetto
+## Project structure
 
 ```
-PJ1.html          # Home: destinazioni, mappa, città visitate
-citta.html        # Pagina di dettaglio di una singola città
-contatti.html     # Pagina contatti + privacy/cookie policy
+PJ1.html          # Home: destinations, map, visited cities
+citta.html        # Detail page for a single city
+contatti.html     # Contact page + privacy/cookie policy
 css/
-  style.css       # Fogli di stile
+  style.css       # Stylesheet
 js/
-  data.js         # Dati delle città condivisi tra le pagine
-  common.js       # Logica condivisa (dark mode, footer, ecc.)
-  script.js       # Logica della home (card, mappa, preferiti, visitate)
-  citta.js        # Logica della pagina di dettaglio città
-  contatti.js     # Logica della pagina contatti
+  data.js         # City data shared across pages
+  common.js       # Shared logic (dark mode, footer, etc.)
+  script.js       # Home page logic (cards, map, favorites, visited)
+  citta.js        # City detail page logic
+  contatti.js     # Contact page logic
 img/
-  *.jpeg          # Foto delle destinazioni principali
+  *.jpeg          # Photos of the main destinations
 ```
 
-## Come avviarlo in locale
+## Running locally
 
-Il progetto non richiede build né installazione di pacchetti: basta un browser con connessione a Internet (per mappa, font e alcune foto — vedi Dipendenze).
+The project needs no build step or package installation: all you need is a browser with an Internet connection (for the map, fonts and some photos, see Dependencies).
 
 ```bash
 git clone https://github.com/AmbrosinoFabio/Italia-explorer.git
 cd Italia-explorer
 python3 -m http.server 8000
 ```
-Poi apri `http://localhost:8000/PJ1.html`.
+Then open `http://localhost:8000/PJ1.html`.
 
-> Nota: usa un server locale invece di aprire i file direttamente — la mappa e alcune funzionalità dipendono da risorse caricate via rete e funzionano meglio serviti su `http://` piuttosto che su `file://`.
+> Note: use a local server instead of opening the files directly. The map and some features rely on resources loaded over the network and work better served over `http://` than from `file://`.
 
-## Dipendenze
+## Dependencies
 
-Nessun pacchetto da installare (no npm, no build step). Il progetto carica in fase di esecuzione:
+No packages to install (no npm, no build step). At runtime the project loads:
 
-- [Leaflet 1.9.4](https://leafletjs.com/) (CSS + JS) via CDN [unpkg.com] — mappa interattiva
-- Tile della mappa da [CARTO](https://carto.com/) / OpenStreetMap
-- [Google Fonts](https://fonts.google.com/) — famiglie *Playfair Display*, *Poppins*
-- [LoremFlickr](https://loremflickr.com/) — foto per le città senza immagine locale bundled (Genova, Bari, Lecce, Cagliari, Perugia, Trieste, Bergamo, Parma, Trento, Assisi): sono immagini casuali generate al volo, **cambiano ad ogni caricamento e non sono garantite se il servizio non è raggiungibile**. Le altre città usano foto incluse nel repository.
+- [Leaflet 1.9.4](https://leafletjs.com/) (CSS + JS) via CDN [unpkg.com] — interactive map
+- Map tiles from [CARTO](https://carto.com/) / OpenStreetMap
+- [Google Fonts](https://fonts.google.com/) — *Playfair Display* and *Poppins* families
+- [LoremFlickr](https://loremflickr.com/) — photos for cities without a bundled local image (Genoa, Bari, Lecce, Cagliari, Perugia, Trieste, Bergamo, Parma, Trento, Assisi): these are random images generated on the fly, **they change on every load and are not guaranteed if the service is unreachable**. The other cities use photos included in the repository.
 
-## Tecnologie
+## Technologies
 
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
 ![Leaflet](https://img.shields.io/badge/Leaflet-199900?style=flat-square&logo=leaflet&logoColor=white)
 
-## Licenza
+## License
 
-Distribuito sotto licenza [MIT](LICENSE). Le foto delle destinazioni restano soggette ai diritti dei rispettivi autori/fonti.
+Released under the [MIT](LICENSE) license. The destination photos remain subject to the rights of their respective authors and sources.

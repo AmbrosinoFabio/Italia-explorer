@@ -15,7 +15,7 @@ contactForm.addEventListener("submit",(event)=>{
 
     formFeedback.textContent=
 
-    "Grazie "+nome+"! Il modulo funziona correttamente. (Progetto dimostrativo: il messaggio non viene realmente inviato, non essendoci un server collegato).";
+    "Thank you "+nome+"! The form works correctly. (Demo project: the message is not actually sent, as there is no connected server).";
 
     formFeedback.classList.remove("hidden");
 

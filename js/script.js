@@ -188,11 +188,11 @@ function vaiSullaMappa(cityName){
 
     "<h2>"+cityName+"</h2>"+
 
-    "<h3>📜 Un po' di storia</h3>"+
+    "<h3>📜 A bit of history</h3>"+
 
     "<p>"+city.history+"</p>"+
 
-    "<h3>🍽️ Cosa si mangia</h3>"+
+    "<h3>🍽️ What to eat</h3>"+
 
     "<p>"+city.food+"</p>";
 
@@ -258,13 +258,13 @@ CITTA' VISITATE + CONSIGLI
 
 const tagLabels={
 
-    mare:"il mare",
+    mare:"the sea",
 
-    montagna:"la montagna",
+    montagna:"the mountains",
 
-    lago:"i laghi",
+    lago:"lakes",
 
-    arte:"l'arte e la storia"
+    arte:"art and history"
 
 };
 
@@ -304,7 +304,7 @@ function mostraSuggerimenti(){
 
         suggestionsBox.innerHTML=
 
-        "Seleziona le città che hai già visitato per ricevere consigli personalizzati.";
+        "Select the cities you have already visited to get personalized suggestions.";
 
         return;
 
@@ -336,7 +336,7 @@ function mostraSuggerimenti(){
 
         suggestionsBox.innerHTML=
 
-        "Seleziona le città che hai già visitato per ricevere consigli personalizzati.";
+        "Select the cities you have already visited to get personalized suggestions.";
 
         return;
 
@@ -356,7 +356,7 @@ function mostraSuggerimenti(){
 
         suggestionsBox.innerHTML=
 
-        "Hai già esplorato tutte le mete di questo tipo, complimenti! 🎉";
+        "You've already explored all the destinations of this kind, congratulations! 🎉";
 
         return;
 
@@ -364,7 +364,7 @@ function mostraSuggerimenti(){
 
     let html=
 
-    "<p>Ti piace "+tagLabels[tagPreferito]+"? Prova anche:</p>"+
+    "<p>Do you like "+tagLabels[tagPreferito]+"? Also try:</p>"+
 
     "<div class='suggestion-list'>";
 
@@ -427,15 +427,15 @@ SLIDER IMMAGINI (con frecce, pallini, didascalie e swipe)
 
 const sliderImages=[
 
-    {src:"img/roma.jpeg", name:"Roma"},
-    {src:"img/milano.jpeg", name:"Milano"},
-    {src:"img/venezia.jpeg", name:"Venezia"},
-    {src:"img/firenze.jpeg", name:"Firenze"},
-    {src:"img/napoli.jpeg", name:"Napoli"},
-    {src:"img/torino.jpeg", name:"Torino"},
+    {src:"img/roma.jpeg", name:"Rome"},
+    {src:"img/milano.jpeg", name:"Milan"},
+    {src:"img/venezia.jpeg", name:"Venice"},
+    {src:"img/firenze.jpeg", name:"Florence"},
+    {src:"img/napoli.jpeg", name:"Naples"},
+    {src:"img/torino.jpeg", name:"Turin"},
     {src:"img/palermo.jpeg", name:"Palermo"},
     {src:"img/matera.jpeg", name:"Matera"},
-    {src:"img/dolomiti.jpeg", name:"Dolomiti"},
+    {src:"img/dolomiti.jpeg", name:"Dolomites"},
     {src:"img/cinque-terre.jpeg", name:"Cinque Terre"},
     {src:"img/pisa.jpeg", name:"Pisa"},
     {src:"img/siena.jpeg", name:"Siena"}
@@ -462,7 +462,7 @@ sliderImages.forEach((item,index)=>{
 
     dot.className="slider-dot";
 
-    dot.setAttribute("aria-label","Vai a "+item.name);
+    dot.setAttribute("aria-label","Go to "+item.name);
 
     dot.addEventListener("click",()=>{
 
@@ -666,7 +666,7 @@ SALUTO
 
 window.addEventListener("load",()=>{
 
-    console.log("Italia Explorer avviato.");
+    console.log("Italia Explorer started.");
 
 });
 
@@ -713,4 +713,4 @@ setInterval(()=>{
 FINE SCRIPT
 ==========================*/
 
-console.log("JavaScript caricato correttamente.");
+console.log("JavaScript loaded successfully.");

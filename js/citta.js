@@ -21,9 +21,9 @@ const cityMapDiv=document.getElementById("cityMap");
 
 if(!city){
 
-    cityTitle.textContent="Città non trovata";
+    cityTitle.textContent="City not found";
 
-    cityHistory.textContent="La città che stai cercando non è nel nostro catalogo. Torna alla home e scegli una destinazione dalla lista.";
+    cityHistory.textContent="The city you're looking for isn't in our catalog. Go back to the home page and choose a destination from the list.";
 
     cityFood.textContent="";
 

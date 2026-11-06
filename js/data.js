@@ -1,95 +1,95 @@
 /*=========================================================
     ITALIA EXPLORER
-    data.js - dati condivisi delle citta (usato da tutte le pagine)
+    data.js - shared city data (used by all pages)
 
-    history / food = versioni brevi, usate nel popup mappa (home)
-    historyDetail / foodDetail = versioni estese, usate solo
-    nella pagina di dettaglio (citta.html)
+    history / food = short versions, used in the map popup (home)
+    historyDetail / foodDetail = extended versions, used only
+    on the detail page (citta.html)
 =========================================================*/
 
 const citiesData={
 
-"Roma":{
+"Rome":{
 
     lat:41.9028, lng:12.4964, tags:["arte"], img:"img/roma.jpeg",
 
-    history:"Fondata secondo la leggenda nel 753 a.C., Roma fu il centro dell'Impero Romano che dominò gran parte del mondo antico. Divenuta poi capitale della cristianità, conserva ancora oggi monumenti simbolo come il Colosseo e il Foro Romano.",
+    history:"Founded according to legend in 753 BC, Rome was the center of the Roman Empire that ruled much of the ancient world. It later became the capital of Christianity and still preserves iconic monuments such as the Colosseum and the Roman Forum.",
 
-    food:"Carbonara, cacio e pepe, amatriciana e i supplì sono i piatti simbolo della cucina romana.",
+    food:"Carbonara, cacio e pepe, amatriciana and supplì are the signature dishes of Roman cuisine.",
 
-    historyDetail:"Secondo la leggenda, Roma fu fondata da Romolo il 21 aprile 753 a.C. sul colle Palatino, dopo la celebre disputa con il fratello Remo. Nei secoli successivi crebbe fino a diventare il centro di un impero che si estendeva dalla Britannia al Nord Africa, dalla Spagna alla Mesopotamia, lasciando un'eredità di diritto, architettura e lingua che ha plasmato l'Occidente. Dopo la caduta dell'Impero Romano d'Occidente nel 476 d.C., la città divenne il cuore spirituale della cristianità come sede del Papato, ruolo che mantiene ancora oggi con la Città del Vaticano al suo interno. Attraversando il Rinascimento e il Barocco, Roma si è arricchita di capolavori come la Cappella Sistina e la Fontana di Trevi, fino a diventare capitale del Regno d'Italia nel 1871 e poi della Repubblica Italiana.",
+    historyDetail:"According to legend, Rome was founded by Romulus on April 21, 753 BC on the Palatine Hill, after the famous dispute with his brother Remus. Over the following centuries it grew into the center of an empire stretching from Britain to North Africa and from Spain to Mesopotamia, leaving a legacy of law, architecture and language that shaped the West. After the fall of the Western Roman Empire in 476 AD, the city became the spiritual heart of Christianity as the seat of the Papacy, a role it still holds today with Vatican City inside it. Through the Renaissance and the Baroque, Rome gained masterpieces such as the Sistine Chapel and the Trevi Fountain, becoming the capital of the Kingdom of Italy in 1871 and later of the Italian Republic.",
 
-    foodDetail:"La cucina romana affonda le radici nella tradizione contadina e popolare, con piatti nati per non sprecare nulla: la coda alla vaccinara, i rigatoni con la pajata e la trippa alla romana sono eredità del cosiddetto 'quinto quarto', le parti meno nobili della carne lavorate nel quartiere di Testaccio, storica sede del mattatoio cittadino. Sul fronte della pasta, i quattro grandi classici sono la carbonara, la cacio e pepe, la gricia e l'amatriciana, ognuna con la propria disciplina non scritta ma difesa con passione dai romani. Tra gli antipasti spiccano i supplì, crocchette di riso fritte con un cuore filante di mozzarella, e i carciofi, protagonisti sia alla giudia (fritti) sia alla romana (brasati con menta ed erbe)."
+    foodDetail:"Roman cuisine has its roots in peasant and working-class tradition, with dishes created to waste nothing: coda alla vaccinara, rigatoni con la pajata and Roman-style tripe are the legacy of the so-called 'fifth quarter', the less noble cuts of meat processed in the Testaccio district, the historic site of the city's slaughterhouse. On the pasta front, the four great classics are carbonara, cacio e pepe, gricia and amatriciana, each with its own unwritten rules passionately defended by Romans. Among the starters, supplì stand out, fried rice croquettes with a stringy mozzarella heart, along with artichokes, served both alla giudia (fried) and alla romana (braised with mint and herbs)."
 
 },
 
-"Milano":{
+"Milan":{
 
     lat:45.4642, lng:9.1900, tags:["arte"], img:"img/milano.jpeg",
 
-    history:"Fondata dai Celti e poi conquistata dai Romani, Milano fu capitale del Ducato di Milano e oggi è la capitale economica e della moda d'Italia. Il suo Duomo, iniziato nel 1386, è uno dei simboli della città.",
+    history:"Founded by the Celts and later conquered by the Romans, Milan was the capital of the Duchy of Milan and today is Italy's economic and fashion capital. Its Cathedral, begun in 1386, is one of the city's symbols.",
 
-    food:"Risotto allo zafferano, cotoletta alla milanese e panettone sono le specialità principali.",
+    food:"Saffron risotto, cotoletta alla milanese and panettone are the main specialties.",
 
-    historyDetail:"Fondata dai Celti Insubri intorno al 590 a.C. con il nome di Mediolanum, la città fu conquistata dai Romani nel 222 a.C. e divenne per un periodo capitale dell'Impero Romano d'Occidente. Nel Medioevo fu libero Comune e poi capitale del potente Ducato di Milano sotto le famiglie Visconti e Sforza, che ne fecero un centro artistico di primo piano, culminato nella costruzione del Duomo, iniziata nel 1386 e conclusa solo cinque secoli dopo. Dopo essere passata sotto il dominio spagnolo, austriaco e francese, Milano divenne nell'Ottocento il motore dell'industrializzazione italiana e oggi è riconosciuta come capitale mondiale della moda e del design.",
+    historyDetail:"Founded by the Insubrian Celts around 590 BC under the name Mediolanum, the city was conquered by the Romans in 222 BC and for a time became the capital of the Western Roman Empire. In the Middle Ages it was a free commune and then the capital of the powerful Duchy of Milan under the Visconti and Sforza families, who made it a leading artistic center, culminating in the construction of the Cathedral, begun in 1386 and completed only five centuries later. After passing under Spanish, Austrian and French rule, Milan became the engine of Italian industrialization in the 19th century and today is recognized as a world capital of fashion and design.",
 
-    foodDetail:"La cucina milanese è legata alla tradizione contadina della Pianura Padana, ricca di burro e riso piuttosto che di olio d'oliva. Il risotto allo zafferano, detto anche risotto alla milanese, nacque secondo la leggenda dall'estro di un apprendista vetraio che tingeva i vetri delle finestre del Duomo con lo zafferano. La cotoletta alla milanese, panata e fritta nel burro con l'osso a vista, è un piatto identitario conteso anche dalla tradizione austriaca del Wiener Schnitzel. A Natale, il panettone, dolce lievitato con canditi e uvetta, ha reso famosa la pasticceria milanese in tutto il mondo, mentre l'aperitivo, nato proprio a Milano a fine Ottocento, è oggi un rito conviviale esportato ovunque."
+    foodDetail:"Milanese cuisine is tied to the peasant tradition of the Po Valley, rich in butter and rice rather than olive oil. Saffron risotto, also known as risotto alla milanese, was born according to legend from the inspiration of an apprentice glassmaker who tinted the Cathedral's window glass with saffron. Cotoletta alla milanese, breaded and fried in butter with the bone in, is an identity dish also claimed by the Austrian tradition of Wiener Schnitzel. At Christmas, panettone, a leavened cake with candied fruit and raisins, has made Milanese pastry famous worldwide, while the aperitivo, born in Milan in the late 19th century, is today a social ritual exported everywhere."
 
 },
 
-"Venezia":{
+"Venice":{
 
     lat:45.4408, lng:12.3155, tags:["mare","arte"], img:"img/venezia.jpeg",
 
-    history:"Fondata nel V secolo dai profughi in fuga dalle invasioni barbariche, Venezia divenne una potente Repubblica marinara che dominò il commercio nel Mediterraneo per secoli.",
+    history:"Founded in the 5th century by refugees fleeing the barbarian invasions, Venice became a powerful maritime republic that dominated Mediterranean trade for centuries.",
 
-    food:"Sarde in saor, risotto al nero di seppia e i cicchetti (piccoli stuzzichini) sono tipici della tradizione veneziana.",
+    food:"Sarde in saor, squid ink risotto and cicchetti (small snacks) are typical of the Venetian tradition.",
 
-    historyDetail:"Le origini di Venezia risalgono al V secolo, quando le popolazioni della terraferma veneta si rifugiarono sulle isole della laguna per sfuggire alle invasioni barbariche di Unni e Longobardi. Costruita su oltre cento isolette collegate da ponti e canali, la città sviluppò nei secoli una straordinaria potenza commerciale e militare come Repubblica di Venezia, detta la Serenissima, dominando le rotte del Mediterraneo orientale e i traffici con l'Oriente grazie a mercanti come Marco Polo. Il Palazzo Ducale, la Basilica di San Marco e l'Arsenale, uno dei più grandi complessi industriali del mondo preindustriale, testimoniano ancora oggi la ricchezza di quella stagione, terminata nel 1797 con la conquista napoleonica.",
+    historyDetail:"The origins of Venice date back to the 5th century, when the people of the Venetian mainland took refuge on the islands of the lagoon to escape the barbarian invasions of the Huns and Lombards. Built on over a hundred small islands linked by bridges and canals, the city developed extraordinary commercial and military power over the centuries as the Republic of Venice, known as La Serenissima, dominating the routes of the eastern Mediterranean and trade with the East thanks to merchants such as Marco Polo. The Doge's Palace, St. Mark's Basilica and the Arsenal, one of the largest industrial complexes of the pre-industrial world, still bear witness to the wealth of that era, which ended in 1797 with the Napoleonic conquest.",
 
-    foodDetail:"La cucina veneziana è profondamente legata al mare e alla laguna: il baccalà mantecato, montato con olio fino a diventare una crema, è forse il piatto più identitario, insieme al fegato alla veneziana con cipolle. Le sarde in saor, marinate con cipolla, uvetta e pinoli, nascono come metodo di conservazione usato dai marinai prima dei lunghi viaggi. I cicchetti, piccoli stuzzichini serviti nei tradizionali bacari (osterie), accompagnano da secoli un'ombra, il bicchierino di vino tipico della tradizione lagunare. Non manca il riso, coltivato nell'entroterra veneto, protagonista di piatti come il risi e bisi, risotto con i piselli offerto un tempo al Doge il giorno di San Marco."
+    foodDetail:"Venetian cuisine is deeply tied to the sea and the lagoon: baccalà mantecato, salt cod whipped with oil into a cream, is perhaps the dish most representative of the city, along with Venetian-style liver with onions. Sarde in saor, sardines marinated with onion, raisins and pine nuts, began as a preservation method used by sailors before long voyages. Cicchetti, small snacks served in traditional bacari (taverns), have for centuries accompanied an ombra, the small glass of wine typical of the lagoon tradition. Rice is also present, grown in the Venetian hinterland and starring in dishes such as risi e bisi, a risotto with peas once offered to the Doge on St. Mark's Day."
 
 },
 
-"Firenze":{
+"Florence":{
 
     lat:43.7696, lng:11.2558, tags:["arte"], img:"img/firenze.jpeg",
 
-    history:"Culla del Rinascimento nel XV secolo grazie alla famiglia Medici, Firenze ha dato i natali ad artisti come Michelangelo, Leonardo da Vinci e Dante Alighieri.",
+    history:"The cradle of the Renaissance in the 15th century thanks to the Medici family, Florence was the birthplace of artists such as Michelangelo, Leonardo da Vinci and Dante Alighieri.",
 
-    food:"La bistecca alla fiorentina, il lampredotto e la ribollita sono i piatti tradizionali toscani.",
+    food:"Bistecca alla fiorentina, lampredotto and ribollita are the traditional Tuscan dishes.",
 
-    historyDetail:"Fondata dai Romani come colonia militare nel I secolo a.C. con il nome di Florentia, Firenze crebbe nel Medioevo come libero Comune arricchito dal commercio della lana e dall'attività bancaria. Nel Quattrocento, sotto il governo della famiglia Medici, diventò il fulcro del Rinascimento europeo, attirando e formando artisti come Brunelleschi, Botticelli, Michelangelo e Leonardo da Vinci, oltre a pensatori come Machiavelli. La cupola del Duomo, progettata da Brunelleschi, rimase per secoli la più grande cupola in muratura mai costruita e ancora oggi domina lo skyline cittadino. Firenze fu inoltre, tra il 1865 e il 1871, la capitale del Regno d'Italia.",
+    historyDetail:"Founded by the Romans as a military colony in the 1st century BC under the name Florentia, Florence grew in the Middle Ages as a free commune enriched by the wool trade and banking. In the 15th century, under the rule of the Medici family, it became the hub of the European Renaissance, attracting and training artists such as Brunelleschi, Botticelli, Michelangelo and Leonardo da Vinci, as well as thinkers such as Machiavelli. The Cathedral dome, designed by Brunelleschi, remained for centuries the largest masonry dome ever built and still dominates the city skyline. Between 1865 and 1871, Florence was also the capital of the Kingdom of Italy.",
 
-    foodDetail:"La cucina fiorentina è fondata su ingredienti semplici e di qualità: la bistecca alla fiorentina, tagliata dalla razza bovina Chianina e cotta al sangue sulla brace, è il piatto simbolo della città e va gustata rigorosamente senza condimenti aggiunti. Il lampredotto, ricavato dal quarto stomaco del bovino e servito in un panino con salsa verde, è invece lo street food per eccellenza, venduto ancora oggi nei tradizionali trippai del centro. La ribollita, zuppa di pane raffermo, cavolo nero e fagioli, e la pappa al pomodoro raccontano la cultura del recupero tipica della cucina povera contadina toscana, oggi rivalutata come vera arte gastronomica."
+    foodDetail:"Florentine cuisine is based on simple, high-quality ingredients: bistecca alla fiorentina, cut from Chianina cattle and cooked rare over embers, is the city's signature dish and must be enjoyed strictly without added condiments. Lampredotto, made from the fourth stomach of the cow and served in a sandwich with green sauce, is instead the street food par excellence, still sold today by the traditional tripe vendors of the center. Ribollita, a soup of stale bread, black cabbage and beans, and pappa al pomodoro tell the story of the culture of reuse typical of Tuscan peasant cooking, now reappraised as a true gastronomic art."
 
 },
 
-"Napoli":{
+"Naples":{
 
     lat:40.8518, lng:14.2681, tags:["mare","arte"], img:"img/napoli.jpeg",
 
-    history:"Fondata dai Greci con il nome di Neapolis (\"città nuova\"), Napoli fu capitale del Regno delle Due Sicilie e vanta uno dei centri storici più grandi d'Europa.",
+    history:"Founded by the Greeks under the name Neapolis (\"new city\"), Naples was the capital of the Kingdom of the Two Sicilies and boasts one of the largest historic centers in Europe.",
 
-    food:"È la patria della vera pizza napoletana, oltre a piatti come la sfogliatella e il ragù napoletano.",
+    food:"It is the home of true Neapolitan pizza, as well as dishes such as sfogliatella and Neapolitan ragù.",
 
-    historyDetail:"Fondata dai coloni greci nell'VIII secolo a.C. con il nome di Partenope e poi rifondata come Neapolis, 'città nuova', nel V secolo a.C., Napoli fu conquistata dai Romani e in seguito divenne capitale del Regno di Napoli e poi del Regno delle Due Sicilie, uno degli stati più importanti d'Europa prima dell'Unità d'Italia. Il centro storico, tra i più estesi del continente, conserva un intreccio unico di stratificazioni greche, romane, angioine, aragonesi e borboniche, oggi Patrimonio dell'Umanità UNESCO. Alle spalle della città si erge il Vesuvio, il vulcano che nel 79 d.C. distrusse Pompei ed Ercolano e che resta ancora attivo, parte integrante dell'identità e del paesaggio napoletano.",
+    historyDetail:"Founded by Greek colonists in the 8th century BC under the name Parthenope and then refounded as Neapolis, 'new city', in the 5th century BC, Naples was conquered by the Romans and later became the capital of the Kingdom of Naples and then of the Kingdom of the Two Sicilies, one of the most important states in Europe before the Unification of Italy. The historic center, among the largest on the continent, preserves a unique blend of Greek, Roman, Angevin, Aragonese and Bourbon layers and is now a UNESCO World Heritage Site. Behind the city rises Vesuvius, the volcano that destroyed Pompeii and Herculaneum in 79 AD and that is still active, an integral part of Neapolitan identity and landscape.",
 
-    foodDetail:"Napoli è universalmente riconosciuta come la patria della pizza: la Margherita, creata secondo la tradizione nel 1889 in onore della Regina d'Italia con i colori della bandiera, e la Marinara sono oggi protette da un disciplinare STG riconosciuto dall'Unione Europea. Oltre alla pizza, la città ha dato i natali al ragù napoletano, cotto per ore con vari tagli di carne, e a dolci come la sfogliatella, riccia o frolla, e il babà, imbevuto di rum. Lo street food napoletano include anche il cuoppo fritto e la pizza fritta, mentre il caffè, servito rigorosamente in tazzine piccole e forti, è quasi un rito quotidiano imprescindibile per la città."
+    foodDetail:"Naples is universally recognized as the home of pizza: the Margherita, created according to tradition in 1889 in honor of the Queen of Italy with the colors of the flag, and the Marinara are now protected by a TSG specification recognized by the European Union. Besides pizza, the city gave birth to Neapolitan ragù, cooked for hours with various cuts of meat, and to desserts such as sfogliatella, in its riccia or frolla versions, and rum-soaked babà. Neapolitan street food also includes the fried cuoppo and fried pizza, while coffee, served strictly in small, strong cups, is an almost essential daily ritual for the city."
 
 },
 
-"Torino":{
+"Turin":{
 
     lat:45.0703, lng:7.6869, tags:["montagna","arte"], img:"img/torino.jpeg",
 
-    history:"Capitale del Regno di Sardegna e prima capitale d'Italia (1861-1865), Torino fu la culla dell'industria automobilistica italiana con la nascita della FIAT.",
+    history:"Capital of the Kingdom of Sardinia and first capital of Italy (1861-1865), Turin was the cradle of the Italian car industry with the birth of FIAT.",
 
-    food:"Bagna cauda, agnolotti e il gianduiotto sono specialità tipiche piemontesi.",
+    food:"Bagna cauda, agnolotti and gianduiotto are typical Piedmontese specialties.",
 
-    historyDetail:"Fondata dai Romani come Augusta Taurinorum, Torino divenne nel XVI secolo capitale del Ducato di Savoia e poi, dal 1720, del Regno di Sardegna, crescendo come elegante città sabauda con ampi viali, portici e palazzi barocchi. Nel 1861 fu la prima capitale del Regno d'Italia unito, prima che il ruolo passasse a Firenze e infine a Roma. Tra fine Ottocento e Novecento Torino divenne il cuore dell'industria automobilistica italiana con la fondazione della FIAT nel 1899, trasformandosi in una delle principali città industriali d'Europa e ospitando nel 2006 le Olimpiadi Invernali.",
+    historyDetail:"Founded by the Romans as Augusta Taurinorum, Turin became the capital of the Duchy of Savoy in the 16th century and then, from 1720, of the Kingdom of Sardinia, growing into an elegant Savoy city with wide avenues, arcades and Baroque palaces. In 1861 it was the first capital of the unified Kingdom of Italy, before the role passed to Florence and finally to Rome. Between the late 19th and the 20th century Turin became the heart of the Italian car industry with the founding of FIAT in 1899, turning into one of Europe's leading industrial cities and hosting the Winter Olympics in 2006.",
 
-    foodDetail:"La cucina torinese unisce influenze francesi e piemontesi: la bagna cauda, salsa calda a base di aglio, acciughe e olio in cui intingere verdure crude e cotte, è un piatto conviviale tipico dei mesi freddi. Gli agnolotti del plin, piccoli ravioli ripieni di carne arrosto 'pizzicati' a mano, e il vitello tonnato sono altri classici della tavola piemontese. Torino è inoltre la patria del cioccolato: il gianduiotto, cioccolatino a base di cacao e nocciole Piemonte IGP, fu inventato qui nell'Ottocento, mentre la città vanta una lunga tradizione di storiche caffetterie e cioccolaterie ancora attive nel centro."
+    foodDetail:"Turin's cuisine combines French and Piedmontese influences: bagna cauda, a hot sauce of garlic, anchovies and oil for dipping raw and cooked vegetables, is a convivial dish typical of the cold months. Agnolotti del plin, small ravioli filled with roast meat and 'pinched' by hand, and vitello tonnato are other classics of the Piedmontese table. Turin is also the home of chocolate: the gianduiotto, a chocolate made with cocoa and Piedmont PGI hazelnuts, was invented here in the 19th century, and the city boasts a long tradition of historic cafés and chocolate shops still active in the center."
 
 },
 
@@ -97,13 +97,13 @@ const citiesData={
 
     lat:44.4949, lng:11.3426, tags:["arte"], img:"img/bologna.jpeg",
 
-    history:"Sede della più antica università del mondo occidentale ancora attiva, fondata nel 1088, Bologna è soprannominata \"la Dotta\" per la sua lunga tradizione universitaria.",
+    history:"Home to the oldest university in the Western world still in operation, founded in 1088, Bologna is nicknamed \"la Dotta\" (the Learned) for its long university tradition.",
 
-    food:"Tagliatelle al ragù, tortellini in brodo e mortadella sono i simboli della cucina bolognese.",
+    food:"Tagliatelle al ragù, tortellini in brodo and mortadella are the symbols of Bolognese cuisine.",
 
-    historyDetail:"Di origini etrusche e poi romane, Bologna divenne nel Medioevo una delle città più ricche e popolose d'Europa grazie ai commerci e all'Università di Bologna, fondata nel 1088 e considerata la più antica del mondo occidentale ancora in attività. Le sue torri medievali, un tempo circa un centinaio e oggi ridotte a poche decine, erano simbolo del potere delle famiglie nobiliari cittadine, mentre i suoi lunghi portici, oltre 60 km, sono stati dichiarati Patrimonio dell'Umanità UNESCO nel 2021. Soprannominata 'la Dotta', 'la Grassa' per la ricchezza della sua cucina e 'la Rossa' per il colore dei suoi tetti, Bologna resta oggi un vivace centro culturale e gastronomico.",
+    historyDetail:"Of Etruscan and then Roman origins, Bologna became one of the richest and most populous cities in Europe in the Middle Ages thanks to trade and the University of Bologna, founded in 1088 and considered the oldest in the Western world still in operation. Its medieval towers, once about a hundred and now reduced to a few dozen, were a symbol of the power of the city's noble families, while its long porticoes, over 60 km, were declared a UNESCO World Heritage Site in 2021. Nicknamed 'la Dotta' (the Learned), 'la Grassa' (the Fat) for the richness of its cuisine and 'la Rossa' (the Red) for the color of its roofs, Bologna remains a lively cultural and gastronomic center today.",
 
-    foodDetail:"Bologna è una delle capitali gastronomiche d'Italia: le tagliatelle al ragù, spesso erroneamente chiamate all'estero 'spaghetti bolognese', nascono da una ricetta depositata ufficialmente nel 1982 presso la Camera di Commercio cittadina. I tortellini, piccola pasta ripiena a forma di anello ispirata secondo la leggenda all'ombelico di Venere, si servono tradizionalmente in brodo di cappone. La mortadella, salume di carne di maiale aromatizzato con pepe in grani e pistacchi, prende il nome proprio dalla città, mentre la lasagna alla bolognese, con besciamella e ragù, completa il quartetto dei piatti simbolo della tradizione emiliana."
+    foodDetail:"Bologna is one of Italy's gastronomic capitals: tagliatelle al ragù, often wrongly called 'spaghetti bolognese' abroad, come from a recipe officially registered in 1982 with the city's Chamber of Commerce. Tortellini, small ring-shaped filled pasta inspired according to legend by the navel of Venus, are traditionally served in capon broth. Mortadella, a pork cold cut flavored with peppercorns and pistachios, takes its name from the city, while lasagna alla bolognese, with béchamel and ragù, completes the quartet of signature dishes of the Emilian tradition."
 
 },
 
@@ -111,13 +111,13 @@ const citiesData={
 
     lat:45.4384, lng:10.9916, tags:["arte"], img:"img/verona.jpeg",
 
-    history:"Città romana con un'Arena ancora oggi utilizzata per spettacoli, Verona è resa celebre in tutto il mondo da Shakespeare come ambientazione di Romeo e Giulietta.",
+    history:"A Roman city with an Arena still used for performances today, Verona was made famous worldwide by Shakespeare as the setting of Romeo and Juliet.",
 
-    food:"Il risotto all'Amarone, i bigoli con l'anatra e il pandoro sono le specialità veronesi.",
+    food:"Amarone risotto, bigoli with duck and pandoro are the Veronese specialties.",
 
-    historyDetail:"Fondata come importante colonia romana grazie alla sua posizione strategica sulle rotte verso il nord Europa, Verona conserva ancora oggi uno dei più grandi e meglio conservati anfiteatri romani al mondo, l'Arena, costruita nel I secolo d.C. e tuttora sede di spettacoli lirici estivi. Nel Medioevo la città fu dominata dalla famiglia della Scala (gli Scaligeri), che ne fece un centro di potere e cultura, per poi passare sotto la Repubblica di Venezia. Verona deve parte della sua fama mondiale a William Shakespeare, che ambientò qui la tragedia di Romeo e Giulietta, rendendo la cosiddetta Casa di Giulietta una delle mete più visitate d'Italia.",
+    historyDetail:"Founded as an important Roman colony thanks to its strategic position on the routes to northern Europe, Verona still preserves one of the largest and best-preserved Roman amphitheaters in the world, the Arena, built in the 1st century AD and still home to summer opera performances. In the Middle Ages the city was ruled by the della Scala family (the Scaligeri), who made it a center of power and culture, before it passed to the Republic of Venice. Verona owes part of its worldwide fame to William Shakespeare, who set the tragedy of Romeo and Juliet here, making the so-called Juliet's House one of the most visited destinations in Italy.",
 
-    foodDetail:"La cucina veronese unisce influenze venete e mantovane: il risotto all'Amarone, mantecato con il celebre vino rosso della Valpolicella, è uno dei piatti più rappresentativi della città. I bigoli, spaghetti di grano tenero fatti con il torchio, si condiscono spesso con sugo d'anatra o di sarde. Il pandoro, dolce lievitato natalizio dalla caratteristica forma a stella, ha origini veronesi ottocentesche e oggi è uno dei dolci simbolo delle festività in tutta Italia, mentre la zona collinare intorno alla città produce vini pregiati come Amarone, Valpolicella e Soave."
+    foodDetail:"Veronese cuisine combines Venetian and Mantuan influences: Amarone risotto, creamed with the famous red wine of Valpolicella, is one of the city's most representative dishes. Bigoli, soft wheat spaghetti made with a press, are often served with duck or sardine sauce. Pandoro, a leavened Christmas cake with a characteristic star shape, has 19th-century Veronese origins and is today one of the signature holiday desserts throughout Italy, while the hills around the city produce fine wines such as Amarone, Valpolicella and Soave."
 
 },
 
@@ -125,13 +125,13 @@ const citiesData={
 
     lat:38.1157, lng:13.3613, tags:["mare","arte"], img:"img/palermo.jpeg",
 
-    history:"Fondata dai Fenici, Palermo fu capitale del Regno di Sicilia e conserva una fusione unica di stili arabo-normanni, visibile ad esempio nella Cappella Palatina.",
+    history:"Founded by the Phoenicians, Palermo was the capital of the Kingdom of Sicily and preserves a unique fusion of Arab-Norman styles, visible for example in the Palatine Chapel.",
 
-    food:"Arancine, panelle e pane con la milza sono i grandi classici dello street food palermitano.",
+    food:"Arancine, panelle and pane con la milza are the great classics of Palermo street food.",
 
-    historyDetail:"Fondata dai Fenici con il nome di Ziz, Palermo fu in seguito dominata da Cartaginesi, Greci, Romani, Bizantini e Arabi, che nel IX secolo la trasformarono in una delle città più ricche e colte del Mediterraneo. Con la conquista normanna nell'XI secolo divenne capitale del Regno di Sicilia, dando vita a uno straordinario stile arabo-normanno che fonde architettura islamica, bizantina e romanica, visibile nella Cappella Palatina e nel Duomo di Monreale, oggi Patrimonio UNESCO. Nei secoli successivi passò sotto Svevi, Angioini, Aragonesi e Borboni, accumulando stratificazioni culturali che rendono Palermo una delle città più multietniche d'Italia.",
+    historyDetail:"Founded by the Phoenicians under the name Ziz, Palermo was later ruled by Carthaginians, Greeks, Romans, Byzantines and Arabs, who in the 9th century turned it into one of the richest and most cultured cities in the Mediterranean. With the Norman conquest in the 11th century it became the capital of the Kingdom of Sicily, giving rise to an extraordinary Arab-Norman style that blends Islamic, Byzantine and Romanesque architecture, visible in the Palatine Chapel and Monreale Cathedral, now a UNESCO Heritage Site. In the following centuries it passed to the Swabians, Angevins, Aragonese and Bourbons, building up cultural layers that make Palermo one of the most multiethnic cities in Italy.",
 
-    foodDetail:"La cucina palermitana riflette la storia multiculturale della città, con influenze arabe, spagnole e francesi: le arancine, palline di riso fritte farcite con ragù, burro o spinaci, sono il simbolo dello street food siciliano. Il pane con la milza (pani ca meusa), servito nei tipici chioschi del centro storico, e le panelle, frittelle di farina di ceci, completano il panorama del cibo di strada palermitano, celebrato anche dal celebre mercato di Ballarò. Tra i dolci, la cassata siciliana e i cannoli, ripieni di ricotta fresca, chiudono degnamente ogni pasto."
+    foodDetail:"Palermo's cuisine reflects the city's multicultural history, with Arab, Spanish and French influences: arancine, fried rice balls filled with ragù, butter or spinach, are the symbol of Sicilian street food. Pane con la milza (pani ca meusa), served at the typical kiosks of the historic center, and panelle, chickpea flour fritters, complete the picture of Palermo street food, also celebrated at the famous Ballarò market. Among the desserts, Sicilian cassata and cannoli filled with fresh ricotta are a fitting end to any meal."
 
 },
 
@@ -139,13 +139,13 @@ const citiesData={
 
     lat:37.5079, lng:15.0830, tags:["mare","montagna"], img:"img/catania.jpeg",
 
-    history:"Fondata dai Greci ai piedi dell'Etna, Catania è stata più volte distrutta e ricostruita a causa di eruzioni e terremoti, l'ultima nel 1693, che le ha dato l'attuale volto barocco.",
+    history:"Founded by the Greeks at the foot of Etna, Catania has been destroyed and rebuilt several times because of eruptions and earthquakes, the last in 1693, which gave it its current Baroque look.",
 
-    food:"La pasta alla Norma, gli arancini e la granita con brioche sono i piatti tipici catanesi.",
+    food:"Pasta alla Norma, arancini and granita with brioche are the typical dishes of Catania.",
 
-    historyDetail:"Fondata dai coloni greci di Calcide nell'VIII secolo a.C. ai piedi dell'Etna, il più grande vulcano attivo d'Europa, Catania ha convissuto per millenni con eruzioni e terremoti che ne hanno più volte cancellato e ricostruito il volto. Il terremoto del 1693, uno dei più devastanti della storia italiana, rase al suolo la città, che venne ricostruita secondo i canoni del barocco siciliano utilizzando la pietra lavica locale: il centro storico che ne risultò, oggi Patrimonio UNESCO, è considerato tra i più eleganti esempi di urbanistica barocca d'Europa. La convivenza con il vulcano, che sovrasta la città e ne fornisce il caratteristico colore scuro degli edifici, è ancora oggi parte integrante dell'identità catanese.",
+    historyDetail:"Founded by Greek colonists from Chalcis in the 8th century BC at the foot of Etna, the largest active volcano in Europe, Catania has lived for millennia with eruptions and earthquakes that have repeatedly erased and rebuilt its face. The earthquake of 1693, one of the most devastating in Italian history, razed the city, which was rebuilt according to the canons of Sicilian Baroque using local lava stone: the resulting historic center, now a UNESCO Heritage Site, is considered among the most elegant examples of Baroque urban planning in Europe. Living with the volcano, which towers over the city and gives its buildings their characteristic dark color, is still an integral part of Catania's identity.",
 
-    foodDetail:"La pasta alla Norma, con melanzane fritte, pomodoro, ricotta salata grattugiata e basilico, è il piatto simbolo di Catania, dedicato all'opera 'Norma' del compositore catanese Vincenzo Bellini. Le arancine catanesi, a forma conica per ricordare l'Etna, si differenziano da quelle palermitane sia nella forma sia nel nome (arancino al maschile). La granita, servita con la tipica brioche col tuppo per la colazione, è una vera istituzione cittadina, disponibile in gusti come mandorla, pistacchio e gelso, mentre il pistacchio di Bronte, coltivato sulle pendici dell'Etna, è ingrediente prezioso in molti piatti locali."
+    foodDetail:"Pasta alla Norma, with fried eggplant, tomato, grated ricotta salata and basil, is the signature dish of Catania, dedicated to the opera 'Norma' by the Catania-born composer Vincenzo Bellini. Catania's arancine, cone-shaped to recall Etna, differ from those of Palermo in both shape and name (arancino in the masculine). Granita, served with the typical brioche col tuppo for breakfast, is a true city institution, available in flavors such as almond, pistachio and mulberry, while the Bronte pistachio, grown on the slopes of Etna, is a prized ingredient in many local dishes."
 
 },
 
@@ -153,13 +153,13 @@ const citiesData={
 
     lat:40.6664, lng:16.6043, tags:["arte"], img:"img/matera.jpeg",
 
-    history:"Abitata ininterrottamente da oltre 9.000 anni, Matera è famosa per i Sassi, antiche case scavate nella roccia, dichiarati Patrimonio dell'Umanità UNESCO nel 1993.",
+    history:"Continuously inhabited for over 9,000 years, Matera is famous for the Sassi, ancient houses carved into the rock, declared a UNESCO World Heritage Site in 1993.",
 
-    food:"Il pane di Matera IGP, la crapiata (zuppa di legumi e cereali) e i peperoni cruschi sono tipici della tradizione lucana.",
+    food:"Pane di Matera PGI, crapiata (a soup of legumes and grains) and peperoni cruschi are typical of the Lucanian tradition.",
 
-    historyDetail:"Matera è una delle città abitate ininterrottamente più antiche del mondo, con tracce di insediamenti umani che risalgono al Paleolitico, oltre 9.000 anni fa. Il suo tratto distintivo sono i Sassi, gli antichi rioni scavati direttamente nella roccia calcarea, abitati fino agli anni '50 del Novecento in condizioni di estrema povertà che spinsero lo Stato italiano a sgomberarli forzatamente, definendoli 'vergogna nazionale'. Solo a partire dagli anni '80 iniziò un lento recupero, culminato nel 1993 con l'iscrizione dei Sassi come Patrimonio dell'Umanità UNESCO e, nel 2019, con la nomina di Matera a Capitale Europea della Cultura.",
+    historyDetail:"Matera is one of the oldest continuously inhabited cities in the world, with traces of human settlement dating back to the Paleolithic, over 9,000 years ago. Its distinctive feature is the Sassi, the ancient districts carved directly into the limestone rock, inhabited until the 1950s in conditions of extreme poverty that led the Italian State to forcibly evacuate them, calling them a 'national disgrace'. Only from the 1980s did a slow recovery begin, culminating in 1993 with the inscription of the Sassi as a UNESCO World Heritage Site and, in 2019, with Matera's designation as European Capital of Culture.",
 
-    foodDetail:"Il pane di Matera, riconosciuto IGP, si distingue per la sua caratteristica forma a cornetto e per la crosta spessa che ne garantisce una lunga conservazione, un tempo essenziale per le famiglie contadine della zona. La crapiata, zuppa di legumi e cereali misti, veniva tradizionalmente preparata per celebrare la fine della mietitura. I peperoni cruschi, essiccati al sole e poi fritti fino a diventare croccanti, sono un condimento tipico della cucina lucana, usato per insaporire paste e piatti a base di baccalà, altro ingrediente storicamente centrale nella tradizione gastronomica di Matera."
+    foodDetail:"Pane di Matera, recognized as PGI, stands out for its characteristic horn shape and for the thick crust that ensures long keeping, once essential for the area's peasant families. Crapiata, a soup of mixed legumes and grains, was traditionally prepared to celebrate the end of the harvest. Peperoni cruschi, sun-dried and then fried until crisp, are a typical condiment of Lucanian cuisine, used to flavor pasta and salt cod dishes, salt cod being another ingredient historically central to Matera's gastronomic tradition."
 
 },
 
@@ -167,13 +167,13 @@ const citiesData={
 
     lat:45.8081, lng:9.0852, tags:["lago"], img:"img/como.jpeg",
 
-    history:"Fondata dai Romani sulle sponde dell'omonimo lago, Como è nota fin dall'Ottocento come meta di villeggiatura dell'aristocrazia europea.",
+    history:"Founded by the Romans on the shores of the lake of the same name, Como has been known since the 19th century as a holiday destination for the European aristocracy.",
 
-    food:"I missoltini (pesce di lago essiccato) e il risotto con il pesce di lago sono piatti tipici della zona.",
+    food:"Missoltini (dried lake fish) and risotto with lake fish are typical dishes of the area.",
 
-    historyDetail:"Fondata dai Romani sulle rive del lago che ne porta il nome, Como fu nell'antichità un importante centro strategico e commerciale lungo le rotte verso il nord delle Alpi, e diede i natali a personalità come Plinio il Vecchio e Plinio il Giovane. Nel Medioevo fu libero Comune, spesso in lotta con la vicina Milano, per poi entrare nell'orbita del Ducato di Milano. A partire dall'Ottocento il lago di Como divenne meta prediletta dell'aristocrazia europea, che vi costruì sontuose ville affacciate sull'acqua, come Villa d'Este e Villa Carlotta, contribuendo a costruire la fama internazionale della zona come una delle destinazioni più eleganti d'Italia.",
+    historyDetail:"Founded by the Romans on the shores of the lake that bears its name, Como was in ancient times an important strategic and commercial center along the routes north of the Alps, and was the birthplace of figures such as Pliny the Elder and Pliny the Younger. In the Middle Ages it was a free commune, often at odds with nearby Milan, before entering the orbit of the Duchy of Milan. From the 19th century Lake Como became a favorite destination of the European aristocracy, who built sumptuous villas overlooking the water, such as Villa d'Este and Villa Carlotta, helping to build the area's international reputation as one of the most elegant destinations in Italy.",
 
-    foodDetail:"La cucina comasca è legata al lago e alla tradizione contadina prealpina: i missoltini, agoni essiccati al sole e poi conservati sotto sale, sono un antico metodo di conservazione del pesce di lago diventato oggi un piatto ricercato, spesso servito con polenta. Il risotto con il pesce persico, dal sapore delicato, e la trota affumicata completano l'offerta ittica del territorio. Tra i dolci, i resta, biscotti a forma di losanga tipici del periodo natalizio, e i miascia, dolci a base di pane raffermo e frutta secca, raccontano una cucina povera ma saporita, tipica delle valli lariane."
+    foodDetail:"Como's cuisine is tied to the lake and to the peasant tradition of the Pre-Alps: missoltini, agone fish dried in the sun and then preserved in salt, are an ancient method of preserving lake fish that has become a sought-after dish today, often served with polenta. Risotto with perch, delicate in flavor, and smoked trout complete the local fish offering. Among the desserts, resta, lozenge-shaped biscuits typical of the Christmas period, and miascia, sweets made with stale bread and dried fruit, tell of a poor but tasty cuisine typical of the Lario valleys."
 
 },
 
@@ -181,13 +181,13 @@ const citiesData={
 
     lat:40.6280, lng:14.4849, tags:["mare"], img:"img/positano.jpeg",
 
-    history:"Antico borgo di pescatori sulla Costiera Amalfitana, Positano divenne famosa nel dopoguerra come meta d'élite grazie a scrittori e artisti che ne celebrarono la bellezza.",
+    history:"An ancient fishing village on the Amalfi Coast, Positano became famous after the war as an elite destination thanks to writers and artists who celebrated its beauty.",
 
-    food:"Gli scialatielli ai frutti di mare e la delizia al limone sono specialità tipiche della costiera.",
+    food:"Scialatielli with seafood and delizia al limone are typical specialties of the coast.",
 
-    historyDetail:"Le origini di Positano si perdono nella leggenda, secondo cui il nome deriverebbe dal dio del mare Poseidone, ma le prime testimonianze storiche certe risalgono all'epoca romana, quando la zona era già frequentata come luogo di villeggiatura. Nel Medioevo divenne un borgo di pescatori e piccoli commercianti marittimi, parte della Repubblica marinara di Amalfi. Rimasta a lungo un semplice villaggio di pescatori, Positano conobbe una trasformazione radicale nel secondo dopoguerra, quando scrittori come John Steinbeck ne raccontarono la straordinaria bellezza, trasformandola in una delle mete turistiche più ambite ed esclusive al mondo.",
+    historyDetail:"The origins of Positano are lost in legend, according to which the name derives from the sea god Poseidon, but the first certain historical evidence dates back to Roman times, when the area was already frequented as a holiday spot. In the Middle Ages it became a village of fishermen and small maritime traders, part of the Maritime Republic of Amalfi. Long remaining a simple fishing village, Positano underwent a radical transformation after the Second World War, when writers such as John Steinbeck described its extraordinary beauty, turning it into one of the most sought-after and exclusive tourist destinations in the world.",
 
-    foodDetail:"La cucina di Positano è quella tipica della Costiera Amalfitana, dominata dai sapori del mare e degli agrumi: gli scialatielli ai frutti di mare, pasta fresca corta e ruvida inventata negli anni '70 proprio sulla costiera, sono uno dei piatti più richiesti nei ristoranti locali. Il limone di Sorrento IGP, coltivato sui terrazzamenti che caratterizzano il paesaggio costiero, è protagonista di piatti come gli spaghetti al limone e di dolci come la celebre delizia al limone. Il pescato locale, spesso cucinato in semplicità con olio, aglio e prezzemolo, completa una tavola che punta tutto sulla freschezza degli ingredienti."
+    foodDetail:"Positano's cuisine is typical of the Amalfi Coast, dominated by the flavors of the sea and citrus: scialatielli with seafood, a short, rough fresh pasta invented on the coast in the 1970s, is one of the most requested dishes in local restaurants. The Sorrento PGI lemon, grown on the terraces that define the coastal landscape, stars in dishes such as spaghetti al limone and desserts such as the famous delizia al limone. Local fish, often simply cooked with oil, garlic and parsley, completes a table that relies entirely on the freshness of its ingredients."
 
 },
 
@@ -195,13 +195,13 @@ const citiesData={
 
     lat:40.6340, lng:14.6027, tags:["mare"], img:"img/amalfi.jpeg",
 
-    history:"Nel Medioevo fu una potente Repubblica Marinara con proprie leggi commerciali (le Tavole Amalfitane), tra le prime al mondo in materia di diritto marittimo.",
+    history:"In the Middle Ages it was a powerful Maritime Republic with its own commercial laws (the Amalfi Tables), among the first in the world on maritime law.",
 
-    food:"I limoni di Amalfi IGP, usati per il limoncello e la delizia al limone, sono il simbolo gastronomico della città.",
+    food:"Amalfi PGI lemons, used for limoncello and delizia al limone, are the city's gastronomic symbol.",
 
-    historyDetail:"Amalfi fu tra il IX e il XII secolo una delle quattro potenti Repubbliche Marinare italiane, insieme a Genova, Pisa e Venezia, con una flotta che dominava i commerci nel Mediterraneo occidentale e con la Sicilia araba e l'Oriente bizantino. La città si dotò delle Tavole Amalfitane, uno dei primi codici di diritto marittimo del mondo, che regolarono per secoli i traffici commerciali di numerose città portuali del Mediterraneo. Il Duomo di Sant'Andrea, con la sua imponente scalinata e la facciata in stile arabo-normanno, testimonia ancora oggi la ricchezza di quella stagione, terminata anche a causa di un maremoto nel 1343.",
+    historyDetail:"Between the 9th and 12th centuries Amalfi was one of the four powerful Italian Maritime Republics, along with Genoa, Pisa and Venice, with a fleet that dominated trade in the western Mediterranean and with Arab Sicily and the Byzantine East. The city adopted the Amalfi Tables, one of the world's first codes of maritime law, which for centuries regulated the trade of many Mediterranean port cities. The Cathedral of Sant'Andrea, with its imposing staircase and Arab-Norman façade, still bears witness to the wealth of that era, which also came to an end because of a tsunami in 1343.",
 
-    foodDetail:"I limoni di Amalfi IGP, dalla buccia spessa e profumata, coltivati sui terrazzamenti a picco sul mare, sono l'ingrediente simbolo della gastronomia locale: dal limoncello, liquore ottenuto dalla macerazione delle scorze in alcol, alla delizia al limone, passando per marmellate, granite e insalate di limoni. Gli scialatielli e i paccheri ai frutti di mare, così come le alici fritte o marinate, raccontano il legame profondo della città con il mare. La carta, prodotta ad Amalfi fin dal Medioevo grazie alle antiche cartiere alimentate dai torrenti locali, è un altro celebre prodotto artigianale della città."
+    foodDetail:"Amalfi PGI lemons, with their thick, fragrant peel, grown on terraces overlooking the sea, are the signature ingredient of local gastronomy: from limoncello, a liqueur made by macerating the peels in alcohol, to delizia al limone, as well as jams, granitas and lemon salads. Scialatielli and paccheri with seafood, as well as fried or marinated anchovies, tell of the city's deep bond with the sea. Paper, produced in Amalfi since the Middle Ages thanks to ancient paper mills powered by local streams, is another famous artisan product of the city."
 
 },
 
@@ -209,13 +209,13 @@ const citiesData={
 
     lat:43.7228, lng:10.4017, tags:["arte"], img:"img/pisa.jpeg",
 
-    history:"Antica Repubblica Marinara, Pisa raggiunse il suo massimo splendore tra l'XI e il XIII secolo. È famosa in tutto il mondo per la Torre Pendente, parte del complesso di Piazza dei Miracoli.",
+    history:"An ancient Maritime Republic, Pisa reached its peak between the 11th and 13th centuries. It is famous worldwide for the Leaning Tower, part of the Piazza dei Miracoli complex.",
 
-    food:"La cecina (torta di ceci), la zuppa alla pisana e il cacciucco sono specialità tipiche della zona.",
+    food:"Cecina (chickpea flatbread), zuppa alla pisana and cacciucco are typical specialties of the area.",
 
-    historyDetail:"Pisa fu una delle quattro Repubbliche Marinare italiane e, tra l'XI e il XIII secolo, una delle principali potenze navali e commerciali del Mediterraneo, con basi commerciali che si estendevano dalla Sardegna alla Corsica fino a Costantinopoli. La costruzione del complesso monumentale di Piazza dei Miracoli, con il Duomo, il Battistero e la celebre Torre Pendente, iniziata nel 1173 e resa famosa dalla sua inclinazione dovuta a un cedimento del terreno, testimonia la ricchezza raggiunta dalla città. Il declino iniziò nel XIV secolo con la sconfitta navale contro Genova, ma Pisa rimase un importante centro culturale, città natale di Galileo Galilei.",
+    historyDetail:"Pisa was one of the four Italian Maritime Republics and, between the 11th and 13th centuries, one of the leading naval and commercial powers of the Mediterranean, with trading bases stretching from Sardinia and Corsica to Constantinople. The construction of the monumental complex of Piazza dei Miracoli, with the Cathedral, the Baptistery and the famous Leaning Tower, begun in 1173 and made famous by its tilt caused by subsiding ground, bears witness to the wealth the city achieved. Its decline began in the 14th century with its naval defeat by Genoa, but Pisa remained an important cultural center and the birthplace of Galileo Galilei.",
 
-    foodDetail:"La cucina pisana affonda le radici sia nella tradizione contadina toscana sia in quella marinara: la cecina, sottile torta salata a base di farina di ceci cotta al forno in grandi teglie di rame, è uno degli street food più antichi e amati della città. Il cacciucco, ricca zuppa di pesce e crostacei cotta con pomodoro, aglio e peperoncino e servita su crostini di pane, è un piatto tipico di tutta la costa toscana rivendicato con orgoglio anche dalla tradizione pisana. La torta co' bischeri, dolce a base di riso e cioccolato tipico del periodo pasquale, completa un repertorio semplice ma ricco di storia."
+    foodDetail:"Pisan cuisine has its roots in both the Tuscan peasant and seafaring traditions: cecina, a thin savory flatbread of chickpea flour baked in large copper pans, is one of the city's oldest and best-loved street foods. Cacciucco, a rich soup of fish and shellfish cooked with tomato, garlic and chili and served on toasted bread, is a typical dish of the whole Tuscan coast, also proudly claimed by the Pisan tradition. Torta co' bischeri, a rice and chocolate dessert typical of the Easter period, completes a simple repertoire rich in history."
 
 },
 
@@ -223,13 +223,13 @@ const citiesData={
 
     lat:43.3188, lng:11.3308, tags:["arte"], img:"img/siena.jpeg",
 
-    history:"Rivale storica di Firenze nel Medioevo, Siena conserva un centro storico gotico perfettamente conservato, dichiarato Patrimonio UNESCO, ed è famosa per il Palio, la corsa di cavalli in Piazza del Campo.",
+    history:"Florence's historic rival in the Middle Ages, Siena has a perfectly preserved Gothic historic center, declared a UNESCO Heritage Site, and is famous for the Palio, the horse race in Piazza del Campo.",
 
-    food:"Pici al ragù, panforte e ricciarelli sono i grandi classici della tradizione senese.",
+    food:"Pici al ragù, panforte and ricciarelli are the great classics of the Sienese tradition.",
 
-    historyDetail:"Di probabili origini etrusche, Siena divenne nel Medioevo una potente Repubblica rivale di Firenze, arricchita dal commercio e dall'attività bancaria: il Monte dei Paschi di Siena, fondato nel 1472, è considerato la banca più antica del mondo ancora in attività. La sconfitta nella battaglia di Montaperti contro Firenze nel 1260, seguita secoli dopo dalla definitiva perdita dell'indipendenza nel 1555, segnò il declino politico della città, che però conservò intatto il suo straordinario patrimonio artistico gotico, oggi Patrimonio UNESCO. Il Palio di Siena, la spettacolare corsa di cavalli in Piazza del Campo, resta ancora oggi il cuore identitario della città.",
+    historyDetail:"Probably of Etruscan origin, Siena became a powerful Republic in the Middle Ages, a rival of Florence, enriched by trade and banking: Monte dei Paschi di Siena, founded in 1472, is considered the oldest bank in the world still in operation. The defeat in the battle of Montaperti against Florence in 1260, followed centuries later by the final loss of independence in 1555, marked the political decline of the city, which nevertheless kept intact its extraordinary Gothic artistic heritage, now a UNESCO Heritage Site. The Palio di Siena, the spectacular horse race in Piazza del Campo, is still the heart of the city's identity.",
 
-    foodDetail:"I pici, spaghetti di pasta fresca fatti a mano senza uovo, si condiscono tradizionalmente con un ragù di carne o con le briciole (pici all'aglione), in un piatto povero ma saporito tipico della cucina contadina senese. Il panforte, dolce speziato a base di frutta candita, miele e mandorle risalente al Medioevo, e i ricciarelli, morbidi biscotti di pasta di mandorle, sono i dolci simbolo della tradizione natalizia toscana, oggi prodotti tutto l'anno. La zona del Chianti, che circonda la città, produce inoltre alcuni dei vini rossi più celebri al mondo."
+    foodDetail:"Pici, handmade fresh spaghetti without egg, are traditionally served with a meat ragù or with breadcrumbs (pici all'aglione), in a poor but tasty dish typical of Sienese peasant cooking. Panforte, a spiced cake of candied fruit, honey and almonds dating back to the Middle Ages, and ricciarelli, soft almond paste biscuits, are the signature sweets of the Tuscan Christmas tradition, now made all year round. The Chianti area surrounding the city also produces some of the most famous red wines in the world."
 
 },
 
@@ -237,41 +237,41 @@ const citiesData={
 
     lat:44.1461, lng:9.6551, tags:["mare"], img:"img/cinque-terre.jpeg",
 
-    history:"Cinque borghi medievali arroccati sulla costa ligure - Monterosso, Vernazza, Corniglia, Manarola e Riomaggiore - collegati da sentieri panoramici, dichiarati Patrimonio dell'Umanità UNESCO nel 1997.",
+    history:"Five medieval villages perched on the Ligurian coast - Monterosso, Vernazza, Corniglia, Manarola and Riomaggiore - linked by scenic trails, declared a UNESCO World Heritage Site in 1997.",
 
-    food:"Il pesto alla genovese, la focaccia e le acciughe di Monterosso sono i sapori tipici della costa.",
+    food:"Pesto alla genovese, focaccia and Monterosso anchovies are the typical flavors of the coast.",
 
-    historyDetail:"I cinque borghi che compongono le Cinque Terre - Monterosso al Mare, Vernazza, Corniglia, Manarola e Riomaggiore - nacquero tra il X e il XIV secolo come piccoli insediamenti di pescatori e agricoltori, arroccati sulle scogliere della costa ligure orientale per difendersi dalle incursioni saracene. Nei secoli, gli abitanti trasformarono i ripidi pendii circostanti in una fitta rete di terrazzamenti sorretti da muretti a secco, costruiti a mano per coltivare vite e ulivi in un territorio altrimenti inospitale. Rimasti isolati fino alla costruzione della ferrovia nell'Ottocento, i cinque borghi hanno conservato quasi intatta la loro fisionomia originaria, tanto da essere dichiarati Patrimonio dell'Umanità UNESCO nel 1997.",
+    historyDetail:"The five villages that make up the Cinque Terre - Monterosso al Mare, Vernazza, Corniglia, Manarola and Riomaggiore - arose between the 10th and 14th centuries as small settlements of fishermen and farmers, perched on the cliffs of the eastern Ligurian coast to defend themselves from Saracen raids. Over the centuries the inhabitants turned the surrounding steep slopes into a dense network of terraces supported by dry stone walls, built by hand to grow vines and olives in an otherwise inhospitable land. Isolated until the railway was built in the 19th century, the five villages have kept their original appearance almost intact, so much so that they were declared a UNESCO World Heritage Site in 1997.",
 
-    foodDetail:"Il pesto alla genovese, preparato con basilico, pinoli, aglio, parmigiano, pecorino e olio extravergine d'oliva ligure, è la salsa simbolo di tutta la Liguria, comprese le Cinque Terre, dove tradizionalmente condisce le trofie o le trenette. Le acciughe di Monterosso, pescate nelle acque locali e servite fritte, marinate o sotto sale, sono un prodotto d'eccellenza della zona, celebrato ogni anno con una sagra dedicata. La focaccia, soffice e unta d'olio, accompagna quasi ogni pasto, mentre lo sciacchetrà, vino dolce da uve appassite coltivate sui terrazzamenti a picco sul mare, è il prodotto più pregiato e raro dell'enologia locale."
+    foodDetail:"Pesto alla genovese, made with basil, pine nuts, garlic, Parmesan, pecorino and Ligurian extra virgin olive oil, is the signature sauce of all of Liguria, including the Cinque Terre, where it traditionally dresses trofie or trenette. Monterosso anchovies, caught in local waters and served fried, marinated or salted, are an excellent product of the area, celebrated every year with a dedicated festival. Focaccia, soft and oily, accompanies almost every meal, while sciacchetrà, a sweet wine from dried grapes grown on terraces overlooking the sea, is the finest and rarest product of local winemaking."
 
 },
 
-"Dolomiti":{
+"Dolomites":{
 
     lat:46.5405, lng:12.1357, tags:["montagna"], img:"img/dolomiti.jpeg",
 
-    history:"Le Dolomiti sono una catena montuosa delle Alpi orientali, dichiarata Patrimonio Naturale dell'Umanità UNESCO nel 2009 per le sue guglie e pareti rocciose uniche al mondo.",
+    history:"The Dolomites are a mountain range of the eastern Alps, declared a UNESCO World Natural Heritage Site in 2009 for their peaks and rock walls, unique in the world.",
 
-    food:"Canederli, speck e polenta con formaggio sono i piatti tipici della tradizione montana.",
+    food:"Canederli, speck and polenta with cheese are the typical dishes of the mountain tradition.",
 
-    historyDetail:"Le Dolomiti prendono il nome dal geologo francese Déodat de Dolomieu, che alla fine del Settecento fu il primo a studiare scientificamente la particolare roccia calcarea che compone questo gruppo montuoso delle Alpi orientali. Formatesi da antiche barriere coralline sommerse circa 250 milioni di anni fa e poi sollevate dai movimenti tettonici, le Dolomiti sono oggi celebri per le loro guglie, pareti verticali e colori che cambiano con la luce, un fenomeno noto come 'enrosadira'. Durante la Prima Guerra Mondiale queste montagne furono un drammatico fronte di battaglia tra l'esercito italiano e quello austro-ungarico, e nel 2009 l'UNESCO le ha dichiarate Patrimonio Naturale dell'Umanità.",
+    historyDetail:"The Dolomites take their name from the French geologist Déodat de Dolomieu, who in the late 18th century was the first to scientifically study the particular limestone rock that makes up this mountain group of the eastern Alps. Formed from ancient submerged coral reefs about 250 million years ago and then raised by tectonic movements, the Dolomites are famous today for their spires, vertical walls and colors that change with the light, a phenomenon known as 'enrosadira'. During the First World War these mountains were a dramatic battlefront between the Italian and Austro-Hungarian armies, and in 2009 UNESCO declared them a World Natural Heritage Site.",
 
-    foodDetail:"La cucina delle valli dolomitiche risente fortemente dell'influenza austro-ungarica, di cui questi territori fecero parte fino al 1918: i canederli, grosse polpette di pane raffermo, speck e formaggio servite in brodo o asciutte con burro fuso, sono il piatto più rappresentativo della zona. Lo speck, prosciutto di coscia di maiale affumicato e stagionato secondo un'antica tradizione altoatesina, accompagna quasi ogni tavola insieme a formaggi di malga stagionati in altura. La polenta, spesso servita con formaggi fusi o funghi porcini, e lo strudel di mele completano un repertorio pensato per resistere ai rigidi inverni di montagna."
+    foodDetail:"The cuisine of the Dolomite valleys is strongly influenced by Austria-Hungary, of which these lands were part until 1918: canederli, large dumplings of stale bread, speck and cheese served in broth or dry with melted butter, are the most representative dish of the area. Speck, a smoked and cured ham from the pork leg made according to an ancient South Tyrolean tradition, accompanies almost every table along with alpine cheeses aged at altitude. Polenta, often served with melted cheese or porcini mushrooms, and apple strudel complete a repertoire designed to withstand the harsh mountain winters."
 
 },
 
-"Genova":{
+"Genoa":{
 
     lat:44.4056, lng:8.9463, tags:["mare","arte"], img:"https://loremflickr.com/800/600/genoa,italy",
 
-    history:"Antica Repubblica Marinara e patria di Cristoforo Colombo, Genova conserva uno dei centri storici medievali più grandi d'Europa, con i palazzi nobiliari dei Rolli, Patrimonio UNESCO.",
+    history:"An ancient Maritime Republic and the homeland of Christopher Columbus, Genoa preserves one of the largest medieval historic centers in Europe, with the noble Rolli palaces, a UNESCO Heritage Site.",
 
-    food:"Il pesto genovese, la focaccia e la farinata sono i simboli della cucina ligure.",
+    food:"Genoese pesto, focaccia and farinata are the symbols of Ligurian cuisine.",
 
-    historyDetail:"Genova fu per secoli, insieme a Venezia, la più potente Repubblica Marinara del Mediterraneo, con una flotta commerciale e militare che dominava le rotte verso l'Oriente, il Nord Africa e il Mar Nero. La città diede i natali a Cristoforo Colombo, che nel 1492 salpò alla volta delle Americhe cambiando per sempre la storia del mondo, e a numerose famiglie di banchieri e mercanti che tra Cinquecento e Seicento fecero costruire gli straordinari palazzi nobiliari dei cosiddetti Rolli, oggi Patrimonio dell'Umanità UNESCO. Il centro storico di Genova, con i suoi stretti caruggi, è tra i più estesi e meglio conservati d'Europa.",
+    historyDetail:"For centuries Genoa was, along with Venice, the most powerful Maritime Republic in the Mediterranean, with a commercial and military fleet that dominated the routes to the East, North Africa and the Black Sea. The city was the birthplace of Christopher Columbus, who in 1492 set sail for the Americas, changing the history of the world forever, and of many families of bankers and merchants who between the 16th and 17th centuries built the extraordinary noble palaces known as the Rolli, now a UNESCO World Heritage Site. Genoa's historic center, with its narrow caruggi, is among the largest and best preserved in Europe.",
 
-    foodDetail:"Il pesto genovese, preparato pestando basilico, pinoli, aglio, parmigiano, pecorino sardo e olio extravergine ligure in un mortaio di marmo, è la salsa più famosa d'Italia nel mondo e trova nella trofia e nelle trenette al pesto la sua espressione classica. La focaccia genovese, alta, morbida e ricoperta di grossi buchi pieni d'olio e sale grosso, è consumata a qualsiasi ora del giorno. La farinata, sottile sfoglia di farina di ceci cotta in forno a legna in grandi teglie di rame, è un altro simbolo dello street food genovese, mentre il cappon magro, elaborata insalata di pesce e verdure a strati, testimonia la ricchezza della cucina marinara nei giorni di festa."
+    foodDetail:"Genoese pesto, made by pounding basil, pine nuts, garlic, Parmesan, Sardinian pecorino and Ligurian extra virgin olive oil in a marble mortar, is Italy's most famous sauce in the world and finds its classic expression in trofie and trenette al pesto. Genoese focaccia, tall, soft and covered with large dimples full of oil and coarse salt, is eaten at any time of day. Farinata, a thin sheet of chickpea flour baked in a wood-fired oven in large copper pans, is another symbol of Genoese street food, while cappon magro, an elaborate layered salad of fish and vegetables, bears witness to the richness of seafaring cuisine on feast days."
 
 },
 
@@ -279,13 +279,13 @@ const citiesData={
 
     lat:41.1171, lng:16.8719, tags:["mare"], img:"https://loremflickr.com/800/600/bari,italy",
 
-    history:"Città portuale sull'Adriatico, Bari conserva nel centro storico la Basilica di San Nicola, meta di pellegrinaggio per cristiani ortodossi e cattolici da tutto il mondo.",
+    history:"A port city on the Adriatic, Bari preserves in its historic center the Basilica of San Nicola, a pilgrimage destination for Orthodox and Catholic Christians from all over the world.",
 
-    food:"Le orecchiette fatte a mano, la focaccia barese e il pesce crudo sono le specialità locali.",
+    food:"Handmade orecchiette, focaccia barese and raw fish are the local specialties.",
 
-    historyDetail:"Città portuale sull'Adriatico di antiche origini, Bari crebbe d'importanza nel Medioevo grazie alla sua posizione strategica lungo le rotte commerciali e di pellegrinaggio verso l'Oriente. Nel 1087 un gruppo di marinai baresi trafugò da Myra, in Turchia, le reliquie di San Nicola, portandole a Bari e costruendo per custodirle l'imponente Basilica di San Nicola: da allora la città è diventata un importante centro di pellegrinaggio venerato sia dai cattolici sia dai cristiani ortodossi. Il centro storico, detto Bari Vecchia, conserva un intricato dedalo di vicoli medievali affacciati sul mare, mentre la città moderna è oggi il principale capoluogo e porto della Puglia.",
+    historyDetail:"A port city on the Adriatic with ancient origins, Bari grew in importance in the Middle Ages thanks to its strategic position along the trade and pilgrimage routes to the East. In 1087 a group of sailors from Bari stole the relics of St. Nicholas from Myra, in Turkey, bringing them to Bari and building the imposing Basilica of San Nicola to house them: since then the city has been an important pilgrimage center venerated by both Catholics and Orthodox Christians. The historic center, known as Bari Vecchia, preserves an intricate maze of medieval alleys overlooking the sea, while the modern city is today the main regional capital and port of Puglia.",
 
-    foodDetail:"Le orecchiette, pasta fresca fatta a mano dalla caratteristica forma concava, sono il simbolo della cucina barese: nel centro storico è ancora oggi comune vedere le signore prepararle a mano davanti alle porte di casa, spesso condite con le cime di rapa. La focaccia barese, morbida e condita con pomodorini e olive, è un altro grande classico da gustare a qualsiasi ora. Il pesce crudo, in particolare i ricci di mare e le cozze, viene consumato freschissimo direttamente al mercato del pesce sul lungomare, mentre il pane di Altamura DOP accompagna da secoli le tavole di tutta la regione."
+    foodDetail:"Orecchiette, handmade fresh pasta with a characteristic concave shape, are the symbol of Bari's cuisine: in the historic center it is still common to see women making them by hand outside their front doors, often served with turnip greens. Focaccia barese, soft and topped with cherry tomatoes and olives, is another great classic to enjoy at any time. Raw fish, especially sea urchins and mussels, is eaten very fresh directly at the fish market on the seafront, while Altamura PDO bread has accompanied the tables of the whole region for centuries."
 
 },
 
@@ -293,13 +293,13 @@ const citiesData={
 
     lat:40.3515, lng:18.1750, tags:["arte"], img:"https://loremflickr.com/800/600/lecce,italy",
 
-    history:"Conosciuta come la \"Firenze del Sud\", Lecce è famosa per il barocco leccese, uno stile architettonico unico scolpito nella pietra locale color miele.",
+    history:"Known as the \"Florence of the South\", Lecce is famous for Lecce Baroque, a unique architectural style carved in the local honey-colored stone.",
 
-    food:"Il pasticciotto, la puccia salentina e il caffè leccese sono le delizie tipiche.",
+    food:"Pasticciotto, puccia salentina and caffè leccese are the typical delights.",
 
-    historyDetail:"Di origini messapiche e poi romane, Lecce raggiunse il suo massimo splendore tra il Cinquecento e il Seicento, quando divenne uno dei centri più importanti del Regno di Napoli nel Salento. In questo periodo la città fu quasi interamente ricostruita nello straordinario stile barocco leccese, caratterizzato dall'uso della pietra leccese, un calcare tenero e dorato facilmente scolpibile che permise agli artigiani locali di realizzare decorazioni ricchissime su chiese e palazzi. La Basilica di Santa Croce e i palazzi di Piazza Duomo sono considerati tra gli esempi più alti di questo stile, che valse alla città il soprannome di 'Firenze del Sud'.",
+    historyDetail:"Of Messapian and then Roman origins, Lecce reached its peak between the 16th and 17th centuries, when it became one of the most important centers of the Kingdom of Naples in Salento. In this period the city was almost entirely rebuilt in the extraordinary Lecce Baroque style, defined by the use of Lecce stone, a soft, golden limestone easily carved, which allowed local craftsmen to create very rich decorations on churches and palaces. The Basilica of Santa Croce and the palaces of Piazza Duomo are considered among the finest examples of this style, which earned the city the nickname 'Florence of the South'.",
 
-    foodDetail:"Il pasticciotto, piccola pasta frolla ripiena di crema pasticcera cotta al forno, è il dolce simbolo di Lecce e viene tradizionalmente consumato caldo a colazione. La puccia salentina, pane tondo e morbido spesso farcito con olive, formaggio o affettati, è un altro grande classico dello street food locale. Il caffè leccese, servito freddo con latte di mandorla e ghiaccio, è una specialità nata proprio in città e diffusasi poi in tutta la Puglia. I taralli, piccoli anelli di pasta croccante spesso aromatizzati con finocchietto o peperoncino, completano un repertorio semplice ma estremamente saporito."
+    foodDetail:"Pasticciotto, a small baked shortcrust pastry filled with custard, is Lecce's signature dessert and is traditionally eaten warm at breakfast. Puccia salentina, a soft round bread often filled with olives, cheese or cold cuts, is another great classic of local street food. Caffè leccese, served cold with almond milk and ice, is a specialty born in the city that then spread throughout Puglia. Taralli, small rings of crunchy dough often flavored with fennel or chili, complete a simple but extremely tasty repertoire."
 
 },
 
@@ -307,13 +307,13 @@ const citiesData={
 
     lat:39.2238, lng:9.1217, tags:["mare"], img:"https://loremflickr.com/800/600/cagliari,italy",
 
-    history:"Capitale della Sardegna, Cagliari ha origini fenicio-puniche e domina il golfo da cui prende il nome, il \"Golfo degli Angeli\", con il quartiere storico del Castello.",
+    history:"The capital of Sardinia, Cagliari has Phoenician-Punic origins and overlooks the gulf from which it takes its name, the \"Gulf of Angels\", with the historic Castello district.",
 
-    food:"La fregola con le arselle, il porceddu e i malloreddus sono piatti tipici sardi.",
+    food:"Fregola with clams, porceddu and malloreddus are typical Sardinian dishes.",
 
-    historyDetail:"Cagliari ha origini antichissime, con insediamenti fenici risalenti all'VIII secolo a.C. che sfruttavano la posizione strategica del golfo per i commerci nel Mediterraneo occidentale. Dominata nei secoli da Cartaginesi, Romani, Vandali, Bizantini, Pisani, Aragonesi e Spagnoli, la città divenne infine capitale del Regno di Sardegna sotto i Savoia. Il quartiere del Castello, cinto da mura medievali costruite dai Pisani nel XIII secolo, domina dall'alto il golfo, chiamato 'Golfo degli Angeli' per la particolare luce che lo illumina al tramonto. Oggi Cagliari è il principale centro economico, culturale e amministrativo della Sardegna.",
+    historyDetail:"Cagliari has very ancient origins, with Phoenician settlements dating back to the 8th century BC that exploited the gulf's strategic position for trade in the western Mediterranean. Ruled over the centuries by Carthaginians, Romans, Vandals, Byzantines, Pisans, Aragonese and Spaniards, the city finally became the capital of the Kingdom of Sardinia under the Savoy. The Castello district, enclosed by medieval walls built by the Pisans in the 13th century, overlooks the gulf from above, called the 'Gulf of Angels' for the particular light that illuminates it at sunset. Today Cagliari is the main economic, cultural and administrative center of Sardinia.",
 
-    foodDetail:"La fregola con le arselle, piccola pasta sarda tostata al forno e cotta con vongole e pomodoro, è uno dei piatti più rappresentativi della cucina cagliaritana e dell'intera Sardegna meridionale. Il porceddu, maialetto da latte cotto lentamente allo spiedo o al forno a legna con foglie di mirto, è il piatto delle grandi occasioni nella tradizione sarda. I malloreddus, piccoli gnocchetti di semola aromatizzati allo zafferano e conditi con salsiccia e pomodoro, e la bottarga di muggine, uova di pesce essiccate tipiche degli stagni sardi, completano un panorama gastronomico che unisce influenze marinare e pastorali."
+    foodDetail:"Fregola with clams, a small oven-toasted Sardinian pasta cooked with clams and tomato, is one of the most representative dishes of Cagliari's cuisine and of all southern Sardinia. Porceddu, suckling pig slowly cooked on a spit or in a wood-fired oven with myrtle leaves, is the dish for great occasions in Sardinian tradition. Malloreddus, small semolina gnocchi flavored with saffron and served with sausage and tomato, and mullet bottarga, dried fish roe typical of the Sardinian lagoons, complete a gastronomic picture that combines seafaring and pastoral influences."
 
 },
 
@@ -321,13 +321,13 @@ const citiesData={
 
     lat:43.1122, lng:12.3888, tags:["arte","montagna"], img:"https://loremflickr.com/800/600/perugia,italy",
 
-    history:"Capoluogo dell'Umbria di origini etrusche, Perugia è famosa per la sua antica università e per l'Eurochocolate, il festival dedicato al cioccolato.",
+    history:"The capital of Umbria, of Etruscan origin, Perugia is famous for its ancient university and for Eurochocolate, the festival dedicated to chocolate.",
 
-    food:"La torta al testo, gli umbricelli e il celebre cioccolato Perugina sono le specialità locali.",
+    food:"Torta al testo, umbricelli and the famous Perugina chocolate are the local specialties.",
 
-    historyDetail:"Di antiche origini etrusche, Perugia fu una delle dodici città-stato della lega etrusca prima di essere conquistata dai Romani nel III secolo a.C. Nel Medioevo divenne un importante libero Comune, arricchito dalla presenza dell'Università di Perugia, fondata nel 1308 e tra le più antiche d'Italia, che ancora oggi rende la città un vivace centro studentesco e internazionale grazie anche all'Università per Stranieri. Il centro storico, arroccato su una collina e caratterizzato da un fitto sistema di vie sotterranee medievali costruite sopra i resti della città etrusca, conserva monumenti come la Fontana Maggiore. Dal 1994 la città ospita ogni anno Eurochocolate, in omaggio alla storica industria dolciaria Perugina.",
+    historyDetail:"Of ancient Etruscan origin, Perugia was one of the twelve city-states of the Etruscan league before being conquered by the Romans in the 3rd century BC. In the Middle Ages it became an important free commune, enriched by the University of Perugia, founded in 1308 and among the oldest in Italy, which still makes the city a lively student and international center, also thanks to the University for Foreigners. The historic center, perched on a hill and characterized by a dense system of medieval underground streets built above the remains of the Etruscan city, preserves monuments such as the Fontana Maggiore. Since 1994 the city has hosted Eurochocolate every year, in tribute to the historic Perugina confectionery company.",
 
-    foodDetail:"La torta al testo, sottile focaccia di farina, acqua e bicarbonato cotta su un disco di ghisa rovente (il testo), è il pane tipico dell'Umbria e viene tradizionalmente farcita con salsiccia, erbe di campo o formaggi. Gli umbricelli, spaghetti di pasta fresca fatti a mano leggermente più spessi, si condiscono spesso con sugo di pomodoro piccante o con il tartufo nero, molto diffuso nei boschi umbri. Perugia è inoltre celebre in tutto il mondo per il cioccolato Perugina, prodotto dal 1907 e famoso soprattutto per i Baci, i cioccolatini con nocciola intera e il celebre bigliettino d'amore all'interno dell'incarto."
+    foodDetail:"Torta al testo, a thin flatbread of flour, water and baking soda cooked on a red-hot cast iron disk (the testo), is the typical bread of Umbria and is traditionally filled with sausage, wild greens or cheese. Umbricelli, slightly thicker handmade fresh spaghetti, are often served with spicy tomato sauce or with black truffle, widespread in the Umbrian woods. Perugia is also famous worldwide for Perugina chocolate, produced since 1907 and best known for Baci, the chocolates with a whole hazelnut and the famous love note inside the wrapper."
 
 },
 
@@ -335,13 +335,13 @@ const citiesData={
 
     lat:45.6495, lng:13.7768, tags:["mare"], img:"https://loremflickr.com/800/600/trieste,italy",
 
-    history:"Affacciata sul Golfo di Trieste, la città ha una storia legata all'Impero Austro-Ungarico, di cui fu il principale porto, e conserva un'architettura mitteleuropea unica in Italia.",
+    history:"Overlooking the Gulf of Trieste, the city has a history tied to the Austro-Hungarian Empire, of which it was the main port, and preserves a Central European architecture unique in Italy.",
 
-    food:"Il caffè triestino, la jota e i crauti sono influenzati dalla tradizione mitteleuropea.",
+    food:"Triestine coffee, jota and sauerkraut are influenced by the Central European tradition.",
 
-    historyDetail:"Trieste ha una storia particolare rispetto al resto d'Italia: per oltre cinque secoli, dal 1382 al 1918, fece parte dell'Impero Austro-Ungarico, diventandone il principale porto commerciale e uno snodo strategico verso l'Europa centrale. Questa lunga appartenenza mitteleuropea ha lasciato un'impronta profonda nell'architettura e nella cultura della città, che ancora oggi conserva un'atmosfera unica in Italia, con influenze austriache, slovene e italiane che convivono nel tessuto urbano. Dopo la Prima Guerra Mondiale Trieste passò all'Italia, ma rimase per anni divisa tra Zone amministrate da Italia e Jugoslavia, fino al definitivo ritorno all'Italia nel 1954.",
+    historyDetail:"Trieste has a history unlike that of the rest of Italy: for over five centuries, from 1382 to 1918, it was part of the Austro-Hungarian Empire, becoming its main commercial port and a strategic hub toward Central Europe. This long Central European affiliation left a deep mark on the city's architecture and culture, which still preserves an atmosphere unique in Italy, with Austrian, Slovenian and Italian influences coexisting in the urban fabric. After the First World War Trieste passed to Italy, but for years it remained divided into Zones administered by Italy and Yugoslavia, until its final return to Italy in 1954.",
 
-    foodDetail:"Il caffè triestino gode di una tradizione unica in Italia, con una terminologia propria, eredità delle storiche caffetterie asburgiche ancora attive nel centro cittadino. La jota, zuppa a base di fagioli, crauti, patate e carne di maiale, e i crauti stessi, cavolo fermentato tipico della cucina mitteleuropea, testimoniano l'influenza austro-slovena sulla gastronomia locale. Gli gnocchi di susine, dolci ripieni di prugna cotti e poi passati nel burro e zucchero, e lo strudel completano un repertorio gastronomico che mescola sapori italiani, austriaci e balcanici in un'unica città di confine."
+    foodDetail:"Triestine coffee enjoys a tradition unique in Italy, with its own terminology, a legacy of the historic Habsburg cafés still active in the city center. Jota, a soup of beans, sauerkraut, potatoes and pork, and sauerkraut itself, the fermented cabbage typical of Central European cuisine, reflect the Austro-Slovenian influence on local gastronomy. Plum gnocchi, sweet dumplings filled with plum, boiled and then tossed in butter and sugar, and strudel complete a gastronomic repertoire that mixes Italian, Austrian and Balkan flavors in a single border city."
 
 },
 
@@ -349,13 +349,13 @@ const citiesData={
 
     lat:45.6983, lng:9.6773, tags:["montagna","arte"], img:"https://loremflickr.com/800/600/bergamo,italy",
 
-    history:"Divisa tra Città Alta, cinta da mura veneziane Patrimonio UNESCO, e Città Bassa, Bergamo unisce storia medievale e vivacità moderna ai piedi delle Prealpi.",
+    history:"Divided into Città Alta, enclosed by Venetian walls that are a UNESCO Heritage Site, and Città Bassa, Bergamo combines medieval history and modern liveliness at the foot of the Pre-Alps.",
 
-    food:"La polenta e osei, i casoncelli e lo stracchino sono piatti tipici bergamaschi.",
+    food:"Polenta e osei, casoncelli and stracchino are typical dishes of Bergamo.",
 
-    historyDetail:"Bergamo è divisa in due parti nettamente distinte: Città Alta, arroccata su un colle e cinta da possenti mura veneziane costruite nel Cinquecento, oggi Patrimonio dell'Umanità UNESCO, e Città Bassa, sviluppatasi come centro moderno ai piedi della collina. Di origini celtiche e poi romane, la città fu a lungo libero Comune prima di entrare a far parte della Repubblica di Venezia nel 1428, periodo a cui risalgono gran parte delle sue fortificazioni. Bergamo diede i natali al compositore Gaetano Donizetti, mentre oggi la città è un vivace centro industriale e culturale ai piedi delle Prealpi orobiche, collegata a Città Alta anche da una storica funicolare.",
+    historyDetail:"Bergamo is divided into two clearly distinct parts: Città Alta, perched on a hill and enclosed by mighty Venetian walls built in the 16th century, now a UNESCO World Heritage Site, and Città Bassa, which developed as a modern center at the foot of the hill. Of Celtic and then Roman origins, the city was long a free commune before becoming part of the Republic of Venice in 1428, the period from which most of its fortifications date. Bergamo was the birthplace of the composer Gaetano Donizetti, and today the city is a lively industrial and cultural center at the foot of the Orobie Pre-Alps, also linked to Città Alta by a historic funicular.",
 
-    foodDetail:"La polenta e osei, polenta gialla servita tradizionalmente con piccoli uccelletti arrosto (oggi spesso sostituiti da altre carni), è il piatto simbolo della tradizione bergamasca, celebrato anche in un celebre dolce omonimo a forma di uovo con pan di Spagna e cioccolato. I casoncelli, grandi ravioli ripieni di carne, amaretti e uvetta conditi con burro fuso, pancetta e salvia, sono un altro grande classico locale. Lo stracchino, formaggio fresco a pasta molle prodotto con il latte delle mucche che 'stracche' scendevano dagli alpeggi in autunno, ha dato origine a numerosi formaggi tipici della zona."
+    foodDetail:"Polenta e osei, yellow polenta traditionally served with small roasted birds (today often replaced by other meats), is the signature dish of Bergamo's tradition, also celebrated in a famous egg-shaped dessert of the same name made with sponge cake and chocolate. Casoncelli, large ravioli filled with meat, amaretti and raisins, served with melted butter, pancetta and sage, are another great local classic. Stracchino, a soft fresh cheese made from the milk of cows that came down 'stracche' (tired) from the alpine pastures in autumn, gave rise to many typical cheeses of the area."
 
 },
 
@@ -363,13 +363,13 @@ const citiesData={
 
     lat:44.8015, lng:10.3279, tags:["arte"], img:"https://loremflickr.com/800/600/parma,italy",
 
-    history:"Città ducale legata alla famiglia Farnese, Parma è patria del compositore Giuseppe Verdi ed è stata nominata Città Creativa UNESCO per la Gastronomia.",
+    history:"A ducal city tied to the Farnese family, Parma is the homeland of the composer Giuseppe Verdi and has been named a UNESCO Creative City of Gastronomy.",
 
-    food:"Il Parmigiano Reggiano, il Prosciutto di Parma e i tortelli d'erbetta sono famosi in tutto il mondo.",
+    food:"Parmigiano Reggiano, Prosciutto di Parma and tortelli d'erbetta are famous worldwide.",
 
-    historyDetail:"Di origini romane, Parma divenne nel Rinascimento un importante Ducato governato dalla famiglia Farnese a partire dal 1545, che ne fece un centro artistico e culturale di rilievo, arricchendo la città di palazzi, teatri e opere d'arte. Il compositore Giuseppe Verdi nacque nelle campagne vicino a Parma nel 1813 e la città ospita ancora oggi il Teatro Regio, tempio della tradizione operistica italiana. Grazie alla sua straordinaria tradizione gastronomica, nel 2015 l'UNESCO ha nominato Parma Città Creativa per la Gastronomia, unica in Italia insieme ad altre poche città al mondo.",
+    historyDetail:"Of Roman origin, Parma became an important Duchy in the Renaissance, ruled by the Farnese family from 1545, who made it a major artistic and cultural center, enriching the city with palaces, theaters and works of art. The composer Giuseppe Verdi was born in the countryside near Parma in 1813 and the city is still home to the Teatro Regio, a temple of the Italian opera tradition. Thanks to its extraordinary gastronomic tradition, in 2015 UNESCO named Parma a Creative City of Gastronomy, the only one in Italy along with a few other cities in the world.",
 
-    foodDetail:"Il Parmigiano Reggiano, formaggio a pasta dura stagionato almeno dodici mesi e prodotto secondo un rigido disciplinare, prende il nome proprio dalla città ed è tra i prodotti caseari più celebri e imitati al mondo. Il Prosciutto di Parma DOP, ottenuto dalla coscia di maiale stagionata per almeno dodici mesi grazie al particolare microclima delle colline parmensi, è altrettanto famoso a livello internazionale. I tortelli d'erbetta, ripieni di ricotta ed erbette di campo conditi con burro fuso e parmigiano, e la torta fritta, sfoglia gonfia e croccante da accompagnare con salumi, completano un repertorio considerato tra i più raffinati d'Italia."
+    foodDetail:"Parmigiano Reggiano, a hard cheese aged at least twelve months and made according to a strict specification, takes its name from the city and is among the most famous and imitated dairy products in the world. Prosciutto di Parma PDO, made from pork leg aged at least twelve months thanks to the particular microclimate of the Parma hills, is just as famous internationally. Tortelli d'erbetta, filled with ricotta and wild greens and served with melted butter and Parmesan, and torta fritta, a puffed, crisp pastry to enjoy with cold cuts, complete a repertoire considered among the most refined in Italy."
 
 },
 
@@ -377,13 +377,13 @@ const citiesData={
 
     lat:46.0748, lng:11.1217, tags:["montagna"], img:"https://loremflickr.com/800/600/trento,italy",
 
-    history:"Circondata dalle Dolomiti, Trento fu sede dell'importante Concilio di Trento nel XVI secolo, che segnò la Controriforma della Chiesa cattolica.",
+    history:"Surrounded by the Dolomites, Trento was the seat of the important Council of Trent in the 16th century, which marked the Counter-Reformation of the Catholic Church.",
 
-    food:"I canederli, la polenta e lo strudel di mele risentono dell'influenza austriaca.",
+    food:"Canederli, polenta and apple strudel show the Austrian influence.",
 
-    historyDetail:"Circondata dalle Dolomiti e attraversata dal fiume Adige, Trento fu fondata dai Romani come Tridentum e divenne nel Medioevo un importante Principato Vescovile, governato direttamente dal vescovo con ampi poteri politici. La città entrò nella storia europea nel Cinquecento come sede del Concilio di Trento (1545-1563), l'assise ecclesiastica che segnò la risposta della Chiesa cattolica alla Riforma protestante, dando avvio alla Controriforma. Dopo secoli di dominio asburgico come parte del Tirolo, Trento passò all'Italia solo nel 1918, conservando ancora oggi una forte identità e autonomia amministrativa come capoluogo del Trentino.",
+    historyDetail:"Surrounded by the Dolomites and crossed by the Adige river, Trento was founded by the Romans as Tridentum and in the Middle Ages became an important Prince-Bishopric, governed directly by the bishop with broad political powers. The city entered European history in the 16th century as the seat of the Council of Trent (1545-1563), the ecclesiastical assembly that marked the Catholic Church's response to the Protestant Reformation, launching the Counter-Reformation. After centuries of Habsburg rule as part of Tyrol, Trento passed to Italy only in 1918, still preserving a strong identity and administrative autonomy as the capital of Trentino.",
 
-    foodDetail:"I canederli, grandi polpette di pane raffermo, speck e formaggio servite in brodo o asciutte, sono il piatto più identitario della cucina trentina, eredità diretta della tradizione mitteleuropea. La polenta, spesso abbinata a formaggi di malga o a spezzatini di carne, è un alimento base della tradizione montana locale. Lo strudel di mele, dolce ripieno arrotolato tipico dell'area alpina, chiude tradizionalmente i pasti, mentre le mele stesse, coltivate in grande quantità nelle valli trentine, sono uno dei prodotti agricoli più importanti della regione, insieme ai celebri vini spumanti Trentodoc."
+    foodDetail:"Canederli, large dumplings of stale bread, speck and cheese served in broth or dry, are the dish most representative of Trentino cuisine, a direct legacy of the Central European tradition. Polenta, often paired with alpine cheeses or meat stews, is a staple of the local mountain tradition. Apple strudel, a rolled filled dessert typical of the Alpine area, traditionally ends meals, while apples themselves, grown in large quantities in the Trentino valleys, are one of the region's most important agricultural products, along with the famous Trentodoc sparkling wines."
 
 },
 
@@ -391,13 +391,13 @@ const citiesData={
 
     lat:43.0707, lng:12.6198, tags:["arte"], img:"https://loremflickr.com/800/600/assisi,italy",
 
-    history:"Città natale di San Francesco, patrono d'Italia, Assisi è meta di pellegrinaggio grazie alla Basilica di San Francesco, Patrimonio dell'Umanità UNESCO.",
+    history:"The birthplace of St. Francis, patron saint of Italy, Assisi is a pilgrimage destination thanks to the Basilica of San Francesco, a UNESCO World Heritage Site.",
 
-    food:"Gli strangozzi al tartufo e la torta al formaggio sono specialità tipiche umbre.",
+    food:"Strangozzi with truffle and torta al formaggio are typical Umbrian specialties.",
 
-    historyDetail:"Assisi è indissolubilmente legata alla figura di San Francesco, nato qui nel 1182 e fondatore dell'ordine francescano, che scelse la povertà e la predicazione itinerante rivoluzionando la spiritualità medievale. Dopo la sua morte nel 1226, la città costruì in suo onore l'imponente Basilica di San Francesco, capolavoro dell'architettura gotica affrescato da grandi maestri come Cimabue e Giotto, diventata meta di pellegrinaggio ininterrotto per quasi otto secoli. Anche Santa Chiara, fondatrice dell'ordine delle Clarisse, nacque e visse ad Assisi, rendendo la città uno dei centri spirituali più importanti del cristianesimo, oggi Patrimonio dell'Umanità UNESCO.",
+    historyDetail:"Assisi is inextricably linked to the figure of St. Francis, born here in 1182 and founder of the Franciscan order, who chose poverty and itinerant preaching, revolutionizing medieval spirituality. After his death in 1226, the city built in his honor the imposing Basilica of San Francesco, a masterpiece of Gothic architecture frescoed by great masters such as Cimabue and Giotto, which has been a destination of uninterrupted pilgrimage for almost eight centuries. St. Clare, founder of the order of the Poor Clares, was also born and lived in Assisi, making the city one of the most important spiritual centers of Christianity, now a UNESCO World Heritage Site.",
 
-    foodDetail:"Gli strangozzi, pasta fresca artigianale simile a spaghetti spessi fatta solo con acqua e farina, si condiscono tradizionalmente con il tartufo nero, molto diffuso nei boschi umbri intorno ad Assisi. La torta al formaggio, pane arricchito con pecorino e parmigiano tipicamente preparato per la colazione di Pasqua, accompagna da secoli le celebrazioni religiose della zona. L'olio extravergine d'oliva umbro, prodotto sulle colline che circondano la città, è considerato tra i più pregiati d'Italia, mentre i legumi e i cereali completano una cucina semplice e legata alla tradizione contadina e monastica del territorio."
+    foodDetail:"Strangozzi, a handmade fresh pasta similar to thick spaghetti made only with water and flour, are traditionally served with black truffle, widespread in the Umbrian woods around Assisi. Torta al formaggio, a bread enriched with pecorino and Parmesan typically prepared for Easter breakfast, has accompanied the area's religious celebrations for centuries. Umbrian extra virgin olive oil, produced on the hills surrounding the city, is considered among the finest in Italy, while legumes and grains complete a simple cuisine tied to the peasant and monastic tradition of the area."
 
 }
 
